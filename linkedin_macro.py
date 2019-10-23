@@ -1,54 +1,65 @@
 """
 linkedin_macro.py
-
-
+Nathan Schneider 10/22/19
+This program is a workaround to obtaining the linkedIn data
+ for the members of the DALI Lab. For more explanation, please
+ consult the documentation.
+ This program performs a series of clicks and keystrokes with
+ load time between in order to save the HTML of each LinkedIn page
+ to my laptop, where it can be parsed. 
 """
 import pyautogui
 import time
+import json
+
+#Blanket load time per page operation
+SLEEP_TIME = 10
+
+
+#To read the names we need to search, we consult the .json. 
+jfile = open("DALI_DATA.json")
+member_dict = json.loads(jfile.read())
+
 print('Press Ctrl-C to quit.')
 
-import json
-jfile = open("DALI_DATA.json")
-obs = json.loads(jfile.read())
-
-
+#Time to switch tabs after starting
 time.sleep(5)
-i=0
-print(pyautogui.position())
-sleeptime = 10
-caught = False
+
 try:
-    while True:
-        for member in obs:
-            pyautogui.click(364,163)
-            pyautogui.click(364,163)
-            pyautogui.click(364,163)
-            name = member["name"]
-            print(name)
+    for member in member_dict:
+        
+        #Focus and highlight search bar
+        pyautogui.click(364,163)
+        pyautogui.click(364,163)
+        pyautogui.click(364,163)
 
-            if not caught and i<=60:
-                i+=1
-                continue
-            caught = True
-            pyautogui.typewrite(name + " Dali Dartmouth")
-            pyautogui.press('enter')
-            time.sleep(sleeptime)
-            pyautogui.click(408,380)
-            time.sleep(sleeptime)
+        #Enter query
+        name = member["name"]
+        print(name)
+        pyautogui.typewrite(name + " Dali Dartmouth")
+        pyautogui.press('enter')
 
-            pyautogui.scroll(-1500)
-            time.sleep(sleeptime)
-            pyautogui.keyDown('ctrl')
-            pyautogui.keyDown('s')
-            pyautogui.keyUp('s')
-            pyautogui.keyUp('ctrl')
-            time.sleep(3)
-            pyautogui.typewrite(name.replace(" ","_"))
-            time.sleep(.5)
-            pyautogui.press('enter')
-            time.sleep(sleeptime)
-            print(i)
-            i+=1
-        exit(0)
+        #Load time
+        time.sleep(SLEEP_TIME)
+
+        #Click first result
+        pyautogui.click(408,380)
+        time.sleep(SLEEP_TIME)
+
+        #Scroll down to load the work experience (not otherwise loaded)
+        pyautogui.scroll(-1500)
+        time.sleep(SLEEP_TIME)
+
+        #Save the page as First_Last.html
+        pyautogui.keyDown('ctrl')
+        pyautogui.keyDown('s')
+        pyautogui.keyUp('s')
+        pyautogui.keyUp('ctrl')
+        time.sleep(3)
+        pyautogui.typewrite(name.replace(" ","_"))
+        time.sleep(.5)
+        pyautogui.press('enter')
+        time.sleep(SLEEP_TIME)
+
 except KeyboardInterrupt:
     print('\nDone.')
