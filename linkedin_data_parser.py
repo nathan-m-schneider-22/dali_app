@@ -108,11 +108,17 @@ def get_job_list(member_name):
             elif "dates" in current_list_job[i].lower():
                 job_dict["dates"] = current_list_job[i+1]
                 i+=1
+            elif "title" in current_list_job[i].lower() \
+                and len(current_list_job[i].lower()) < 60:
+                job_dict["title"] = current_list_job[i+1]
+                i+=1
+
             else:
                 #Add the descriptions as extra, except for junk/caught up HTML and links
                 if not any(avoid in current_list_job[i] for avoid in ["See more","...",">","<","//"]):
                     job_dict["extra"] +=  current_list_job[i].replace("•","") + "\n"
             i+=1
+        if "title" not in job_dict: job_dict["title"] = current_list_job[0]
         #Add the job dict to the list
         job_dict_list.append(job_dict)
         print(job_dict)
