@@ -5,6 +5,7 @@ const app = express()
 const port = 3000
 
 var data = require('./job_data.json'); //(with path)
+app.use(bodyParser.json())
 
 app.get('/', (req, res) => {
     res.send("Welcome to the API\nSee the documentation for its uses")
@@ -15,20 +16,28 @@ app.get('/members/all', (req, res) => {
 });
 
 app.get('/members/all/:attribute', (req, res) => {
-    if (req.params.attribute === "employers"){
-        const set = new Set();
-        for (let member of  data){
-            console.log(member.name)
-            for (var job of member.jobs){
-                set.add(job.company_name)
+    attribute_count_list = []
+
+    for (member of data){
+        if (req.params.attribute == "employer"){
+            for (job of member.jobs){
+                if (!attribute_count_list.find(({employer}) => employer === job.company_name)){
+                    attribute_count_list.push({employer:job["company_name"],count: 0})
+                }
+                attribute_count_list.find(({employer}) => employer === job.company_name).count++
             }
         }
-        array = Array.from(set)
+        else{
+            if (!attribute_count_list.find(val => val[req.params.attribute] === member[req.params.attribute])){
+                item = {}
+                item[req.params.attribute] = member[req.params.attribute]
+                item.count = 0
+                attribute_count_list.push(item)
+            }   
+            attribute_count_list.find(val => val[req.params.attribute] === member[req.params.attribute]).count++    
+        }
     }
-    else{
-        array = data.map((member) => member[req.params.attribute])
-    }
-    res.send((array));
+    res.send((attribute_count_list));
 });
 app.get('/members/match/', (req, res) => {
     var matching_members = []
@@ -50,35 +59,34 @@ app.get('/members/match/', (req, res) => {
 });
 
 app.get('/members/:name', (req, res) => {
-    console.log(req.params.name)
     res.send(data.find(({ name }) => name === req.params.name));
 });
 
 app.get('/members/:name/:attribute', (req, res) => {
-    console.log(req.params.name)
     res.send(data.find(({ name }) => name === req.params.name)[req.params.attribute]);
 });
 
 app.get('/members/:name/jobs/:company_name', (req, res) => {
-    console.log(req.params.name)
     member = data.find(({ name }) => name === req.params.name)
     res.send(member.jobs.find(({company_name}) => company_name === req.params.company_name));
 });
 
-
 app.post('/members', (req, res) => {
-     
     new_member = req.body
-
-    console.log(new_member)
+    data.push(new_member)
     res.json({message: "DALI member added"})
 });
-app.post('/members/jobs', (req, res) => {
-    return res.send('Received a POST HTTP method');
+
+app.post('/members/:name/jobs', (req, res) => {
+    job = req.body
+    job_list = data.find(({ name }) => name === req.params.name)["jobs"]
+    job_list.push(job)
+    res.json({message:"Job added"})
 });
     
 
 app.put('/', (req, res) => {
+
 return res.send('Received a PUT HTTP method');
 });
 
