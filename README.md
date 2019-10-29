@@ -774,8 +774,8 @@ response:
 
    **Required:**
  
-   `id=user_id` a valid user id  
-   `job_id` a valid job id
+   `:id` a valid user id  
+   `:job_id` a valid job id
 
 * **Success Response:**
 
