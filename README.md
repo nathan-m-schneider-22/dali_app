@@ -627,7 +627,8 @@ Body:
 {
 	"name" : "Phil Hanlon",
 	"year": "77"
-}```
+}
+```
 response: 
 
 ```json 
@@ -676,7 +677,7 @@ OR
 
 OR
 
-If there are any fields missing from the request body, they will be rejected and displayed in the error. If there are any extra fields, these will also be rejected. If any fields differ from the [Joi Schema](./schemas.js) the request will be rejected. 
+ If there are any extra fields, these will also be rejected. If any fields differ from the [Joi Schema](./schemas.js) the request will be rejected. 
 
 * **Code:** 400 BAD REQUEST <br />
 **Content:** `{
@@ -684,16 +685,16 @@ If there are any fields missing from the request body, they will be rejected and
   "name": "ValidationError",
   "details": [
     {
-      "message": "\"roll\" is not allowed",
+      "message": "\"extra-field\" is not allowed",
       "path": [
-        "roll"
+        "extra-field"
       ],
       "type": "object.allowUnknown",
       "context": {
-        "child": "roll",
-        "value": "Time waster",
-        "key": "roll",
-        "label": "roll"
+        "child": "extra-field",
+        "value": "extra",
+        "key": "extra-field",
+        "label": "extra-field"
       }
     }
   ],
@@ -887,7 +888,7 @@ list of all DALI members that match all of these key,value conditions
 *  **Query Params**
 
  
-   `field=value` any and all valid fields, with any values
+   `field=value` Any number of valid fields equal to values
 
 
 * **Success Response:**
