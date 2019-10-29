@@ -80,8 +80,10 @@ app.get('/members/', (req, res) => {
  */
 app.get('/members/:id', (req, res) => {
     var member = data.find(member => member.id == req.params.id)
-    if (!member) res.status(404).send({error:"User id not found"}) //if the member with that id wasn't found
-
+    if (!member) {
+        res.status(404).send({error:"User id not found"}) //if the member with that id wasn't found
+        return
+    }
     if (req.query.fields){ //if the user specified fields
         var reduced_member = {} //reduced member
         for (field_val of req.query.fields.split(",")){ 
@@ -107,8 +109,10 @@ app.get('/members/:id', (req, res) => {
  */
 app.get('/members/:id/jobs',(req, res) => {
     var member = data.find(member => member.id == req.params.id)
-    if (!member) res.status(404).send({error:"User id not found"}) //if the user isn't found
-
+    if (!member) {
+        res.status(404).send({error:"User id not found"}) //if the user isn't found
+        return
+    }
     var jobs = member.jobs
 
     if (req.query.fields){ //if the user specified fields
@@ -143,12 +147,16 @@ app.get('/members/:id/jobs',(req, res) => {
  */
 app.get('/members/:id/jobs/:job_id', (req, res) => {
     var member = data.find(({id}) => id == req.params.id)
-    if (!member) res.status(404).send({error:"User id not found"}) //check user exists
-
+    if (!member) {
+        res.status(404).send({error:"User id not found"}) //check user exists
+        return
+    }
     var jobs = member.jobs
     var job = jobs.find(({job_id}) => job_id == req.params.job_id)
-    if (!job) res.status(404).send({error:"Job id not found"}) //check that job id exists
-
+    if (!job) {
+        res.status(404).send({error:"Job id not found"}) //check that job id exists
+        return
+    }
     if (req.query.fields){ //if the user requests more fields
         var reduced_job = {} //make a job with reduced fields
         for (field of req.query.fields.split(",")){
@@ -199,8 +207,10 @@ app.post('/members', (req, res) => {
  */
 app.post('/members/:id/jobs', (req, res) => {
     var member = data.find(({id}) => id == req.params.id)
-    if (!member) res.status(404).send({error:"User id not found"}) //check user exists 
-
+    if (!member) {
+        res.status(404).send({error:"User id not found"}) //check user exists 
+        return
+    }
     var new_job = req.body //input validation through Joi
     var result = job_schema.validate(new_job,{ presence: 'required'}) //all fields required
     var { value, error } = result 
@@ -228,8 +238,10 @@ app.post('/members/:id/jobs', (req, res) => {
  */
 app.patch('/members/:id' , (req,res) => {
     var member = data.find(member => member.id == req.params.id)
-    if (!member) res.status(404).send({error:"User id not found"}) //user 404
-
+    if (!member) {
+        res.status(404).send({error:"User id not found"}) //user 404
+        return
+    }
     var member_update = req.body //Joi validation
     var result = member_schema.validate(member_update,{ presence: 'optional' }) //fields are all optional
     var { value, error } = result 
@@ -253,12 +265,16 @@ return res.send({message:"Member updated", id : req.params.id })
  */
 app.patch('/members/:id/jobs/:job_id' , (req,res) => {
     var member = data.find(member => member.id == req.params.id)
-    if (!member) res.status(404).send({error:"User id not found"}) //user must exist
-
+    if (!member) {
+        res.status(404).send({error:"User id not found"}) //user must exist
+        return
+    }
     var jobs = member.jobs
     var job = jobs.find(job => job.job_id == req.params.job_id)
-    if (!job) res.status(404).send({error:"Job id not found"}) //job id must exist
-
+    if (!job) {
+        res.status(404).send({error:"Job id not found"}) //job id must exist
+        return
+    }
     var job_upate = req.body //validation through the Joi library 
     var result = job_schema.validate(job_upate,{ presence: 'optional' })//fields are all optional
     var { value, error } = result 
@@ -278,8 +294,10 @@ app.patch('/members/:id/jobs/:job_id' , (req,res) => {
  */
 app.delete('/members/:id/', (req, res) => {
     var member = data.find(member => member.id == req.params.id)
-    if (!member) res.status(404).send({error:"User id not found"}) //user must exist
-
+    if (!member) {
+        res.status(404).send({error:"User id not found"}) //user must exist
+        return
+    }
     data = data.filter(member => member.id != req.params.id) //just filter out those with that ID
 return res.send({message:'Member Deleted',id:req.params.id})
 })
@@ -290,12 +308,17 @@ return res.send({message:'Member Deleted',id:req.params.id})
  */
 app.delete('/members/:id/jobs/:job_id', (req, res) => {
     var member = data.find(member => member.id == req.params.id)
-    if (!member) res.status(404).send({error:"User id not found"}) //user must exist
+    if (!member) {
+        res.status(404).send({error:"User id not found"}) //user must exist
+        return
+    }
     jobs = member.jobs
     var job = jobs.find(job => job.job_id == req.params.job_id)
-    if (!job) res.status(404).send({error:"Job id not found"}) //user must exist
-
+    if (!job) {
+        res.status(404).send({error:"Job id not found"}) //user must exist
+        return
+    }
     member.jobs = member.jobs.filter(job => job.job_id != req.params.job_id) //filter jobs
-return res.send({message:"Job Deleted", job_id: req.params.job_id})
+return res.send({message:"Job Deleted", id: req.params.job_id})
 })
 
