@@ -68,24 +68,10 @@ def get_job_list(member_name):
             current_list_job.append(data_list[index])
             index += 1
                     
-
-    #     current_list_job.append(data_list[index])
-    #     index += 1
-    #     if data_list[index] == "Company Name":
-    #         keywords = ["duration","location","employment duration",""]
-    #         next_list = []
-    #         if not any(keyword in data_list[index-2].lower() for keyword in keywords):
-    #             current_list_job.remove(data_list[index])
-    #             next_list.append(data_list[index-1])
-    #         all_list_jobs.append(current_list_job)
-    #         current_list_job = next_list
-
-    # all_list_jobs.append(current_list_job)
-
     #List of dicts we will be returning
     job_dict_list = []
+    job_id = 0
     for current_list_job in all_list_jobs:
-        print(current_list_job)
         #initalize the dictionary, establish the categories
         #We track company name, duration, location, dates, and extra
         #A category with descriptors and titles
@@ -120,8 +106,9 @@ def get_job_list(member_name):
             i+=1
         if "title" not in job_dict: job_dict["title"] = current_list_job[0]
         #Add the job dict to the list
+        job_dict["job_id"] = job_id
+        job_id+=1
         job_dict_list.append(job_dict)
-        print(job_dict)
     #clear the global list
     data_list.clear()
     return job_dict_list
@@ -132,9 +119,12 @@ def get_job_list(member_name):
 jfile = open("DALI_DATA.json")
 member_list = json.loads(jfile.read())
 
+member_id = 0
 #Get their names and jobs from the saved files
 for member in member_list:
     name = member["name"]
+    member["id"] = member_id
+    member_id+=1
     member["jobs"] = get_job_list(name)
 
 
