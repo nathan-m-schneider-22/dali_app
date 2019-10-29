@@ -6,7 +6,7 @@ The LinkedIn data was collected and parsed using Python. The data given for the 
 The next step was to parse the HTML into job data. This was done with the [parser](./linkedin_data_parser.py). This takes the original JSON data file, strips the HTML file for each name, and creates a new JSON with a list of jobs added to the member's data. 
 
 ## RESTful API
-The API was implemented in Javascript using primarily the `express` library. This provided the framework for routes, requests, and responses. Input validation was implemented using `Joi`. `Joi` is a library that allows objects to be validated against preset [schemas](./schemas.js). Each field in the Schema object has specific charcateristics as can be seen here. 
+The API was implemented in Javascript using primarily the `express` library. This provided the framework for routes, requests, and responses. Input validation was implemented using `Joi`. `Joi` is a library that allows objects to be validated against preset [schemas](./schemas.js). Each field in the Schema object has specific charcateristics as can be seen here. If an input differs from these set rules, Joi rejects this input.
 ``` javascript 
 const job_schema = Joi.object().keys({
     extra: Joi.string().allow(""),
