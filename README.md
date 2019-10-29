@@ -2,7 +2,7 @@
 
 
 ## Overview
-This API is a platform for collecting and distributing data about the members of the DALI Lab. This README will review the including endpoints included in this API. Before continuing, be sure you are aware of the data being used, 
+This API is a platform for collecting and distributing data about the members of the DALI Lab, as well as member data from LinkedIn. This README will review the including endpoints included in this API. Before continuing, be sure you are aware of the data being used, 
 [see here](./data/data.md). For more information about the LinkedIn scraping, or other aspects of the implementation, [see here](./implementation.md). 
 
 # Endpoints 
