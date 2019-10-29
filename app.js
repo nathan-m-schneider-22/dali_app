@@ -319,6 +319,6 @@ app.delete('/members/:id/jobs/:job_id', (req, res) => {
         return
     }
     member.jobs = member.jobs.filter(job => job.job_id != req.params.job_id) //filter jobs
-return res.send({message:"Job Deleted", id: req.params.job_id})
+return res.send({message:"Job Deleted", job_id: req.params.job_id})
 })
 
