@@ -23,6 +23,7 @@
     "favoriteArtist": "Cage the Elephant",
     "favoriteColor": "Blue",
     "phoneType": "iOS",
+    "id": 0,
     "jobs": [
       {
         "extra": " Guide students through projects in AR (Vuforia) and VR (Oculus SDK)\n Build and update course exercises and foundation tutorials for Unity and Maya.\n Lead students toward delightful solutions to class projects, including a futuristic digital project, a\nphysical carrying device, and a Dartmouth improvement project\n Facilitate learning sessions on the various parts of the design thinking process, including user\nresearch, brainstorming, prototyping, and user feedback\n",
@@ -30,7 +31,8 @@
         "duration": "1 yr 8 mos",
         "title": "Design Thinking Teaching Assistant",
         "dates": "Mar 2018 – Present",
-        "location": "Hanover, NH"
+        "location": "Hanover, NH",
+        "job_id": 0
       },
       {
         "extra": "Designer | Developer\n Collaborate with developers and other designers to create mobile and web applications for\npartner projects\n Designed user flow and UI assets for a mobile application that aimed to encouraged discussion of\nmental health issues (Unmasked)\n",
@@ -38,7 +40,8 @@
         "dates": "Mar 2017 – Present",
         "duration": "2 yrs 8 mos",
         "location": "Hanover, New Hampshire",
-        "title": "Designer | Developer"
+        "title": "Designer | Developer",
+        "job_id": 1
       },
       {
         "extra": "UX Designer Intern | Microsoft Teams\n Design intern for Core UX team on Microsoft Teams\n Led design process for automatic translation in Teams, working across organizations with the\nIntelligent Translation team\n Collaborated with designers, researchers and program managers to deliver thorough u\n",
@@ -46,7 +49,8 @@
         "dates": "Jun 2019 – Aug 2019",
         "duration": "3 mos",
         "location": "Greater Seattle Area",
-        "title": "UX Designer Intern | Microsoft Teams"
+        "title": "UX Designer Intern | Microsoft Teams",
+        "job_id": 2
       },
       {
         "extra": "UX Designer Intern\n Designed for the Test and Learn Flow team, particularly for data upload and event creation flows\nduring user onboarding\n Collaborated closely with other designers during design reviews and critiques, pair design\nsessions, and brainstorming sessions\n",
@@ -54,7 +58,8 @@
         "dates": "Jan 2019 – Mar 2019",
         "duration": "3 mos",
         "location": "Arlington, VA",
-        "title": "UX Designer Intern"
+        "title": "UX Designer Intern",
+        "job_id": 3
       }
     ]
   },
@@ -82,6 +87,7 @@
     "favoriteArtist": "Ariana Grande",
     "favoriteColor": "Blue",
     "phoneType": "iOS",
+    "id": 1,
     "jobs": [
       {
         "extra": "Software Engineer\n DALI Lab is an innovative startup-like experiential learning program where students work in teams\nof designers and developers to build digital applications to real problems.\n Worked on Blabl, a mobile application using Amazon’s APIs to help kids with speech impediments\npractice speaking. Additional components include a Flask server that uses machine learning to\nanalyze users' speech, a Redux web app to display the analytics of users to their parents, and an\nAlexa skill companion app.\n Currently working on a virtual reality application that will enable users to see through the\nperspective of a tarsier monkey\nDALI\nDALI\n",
@@ -89,7 +95,8 @@
         "dates": "Sep 2018 – Present",
         "duration": "1 yr 2 mos",
         "location": "Hanover, New Hampshire",
-        "title": "Software Engineer"
+        "title": "Software Engineer",
+        "job_id": 0
       },
       {
         "extra": "Software Engineering Intern\n In charge of designing and implementing a Java program that takes Open API Specifications and\ngenerates API clients for 3rd party developers to be able to use the Qualtrics API more easily.\n A primary goal of this project is to make API clients easy to maintain while also ensuring that\ndeveloper experience is smooth and easy.\n",
@@ -97,7 +104,8 @@
         "dates": "Jun 2019 – Aug 2019",
         "duration": "3 mos",
         "location": "Seattle, WA",
-        "title": "Software Engineering Intern"
+        "title": "Software Engineering Intern",
+        "job_id": 1
       },
       {
         "extra": "Web Development Intern\n Used the MEAN stack to implement the frontend and backend of a website that maps and\nvisualizes data from TrashOut regarding the state of littering in Kosovo. The website also allows\nadministrators to post and edit articles to inform citizens on the state of the environment and raise\nawareness of the issue of littering.\n",
@@ -105,7 +113,8 @@
         "dates": "Jun 2018 – Aug 2018",
         "duration": "3 mos",
         "location": "Kosovo",
-        "title": "Web Development Intern"
+        "title": "Web Development Intern",
+        "job_id": 2
       },
       {
         "extra": "Introduction to Programming and Computation Section Leader\n Once a week, I helped a subgroup of the Introduction to Programming and Computation class\ngain better understanding of course concepts by going over the practice problems and\nassignments they were given. Also held 3 hours of office hours per week to help students with\nassignments.\n",
@@ -113,7 +122,8 @@
         "dates": "Sep 2017 – Nov 2017",
         "duration": "3 mos",
         "location": "Hanover, NH",
-        "title": "Introduction to Programming and Computation Section Leader"
+        "title": "Introduction to Programming and Computation Section Leader",
+        "job_id": 3
       }
     ]
   },
@@ -141,6 +151,7 @@
     "favoriteArtist": "Reol",
     "favoriteColor": "Magenta, Aqua Blue",
     "phoneType": "iOS",
+    "id": 2,
     "jobs": [
       {
         "extra": "Chief of Staff, Senior UI/UX Designer and Animator, Mentor\n- UI/UX Designer.\n- Work in teams of approximately five people, in cooperation with an external project partner on a\nproject that intertwines digital art and computer science.\n- Design the user interface for mobile and web platforms for startups and Dartmouth-affiliated\nparties\n",
@@ -148,7 +159,8 @@
         "dates": "Sep 2017 – Present",
         "duration": "2 yrs 2 mos",
         "location": "Hanover, NH",
-        "title": "Chief of Staff, Senior UI/UX Designer and Animator, Mentor"
+        "title": "Chief of Staff, Senior UI/UX Designer and Animator, Mentor",
+        "job_id": 0
       },
       {
         "extra": "3D Modeling & UI/UX Teaching Assistant\n- COSC22, 3D Modeling Teaching Assistant\n- COSC25, UI/UX Design Teaching Assistant\n- As a teaching assistant for these courses, I help students understand 3D modeling concepts in\nAutodesk Maya and UI/UX concepts under Professor Lorie Loeb (2019 Winter, Spring) a\n",
@@ -156,7 +168,8 @@
         "dates": "Jan 2019 – Present",
         "duration": "10 mos",
         "location": "Hanover, NH",
-        "title": "3D Modeling & UI/UX Teaching Assistant"
+        "title": "3D Modeling & UI/UX Teaching Assistant",
+        "job_id": 1
       },
       {
         "extra": "UI/UX Designer\n- Trusst is a professional therapy mobile app startup which aims to foster more affordable and\naccessible therapy. I worked on designing and creating the app’s visual user interface\n",
@@ -164,7 +177,8 @@
         "dates": "May 2019 – Present",
         "duration": "6 mos",
         "location": "Hanover, NH",
-        "title": "UI/UX Designer"
+        "title": "UI/UX Designer",
+        "job_id": 2
       },
       {
         "extra": "Head Multimedia Designer\n- Designer for the Dartmouth multimedia team, where I served as the head designer for the\nDartmouth's Snapchat project\n- Created animations and other designs for the newspaper's Snapchat platform and other sections\n",
@@ -172,7 +186,8 @@
         "dates": "Mar 2018 – Present",
         "duration": "1 yr 8 mos",
         "location": "Hanover, NH",
-        "title": "Head Multimedia Designer"
+        "title": "Head Multimedia Designer",
+        "job_id": 3
       }
     ]
   },
@@ -200,6 +215,7 @@
     "favoriteArtist": "DEAN",
     "favoriteColor": "Blue",
     "phoneType": "iOS",
+    "id": 3,
     "jobs": [
       {
         "extra": "Software Engineer\n",
@@ -207,7 +223,8 @@
         "dates": "Aug 2019 – Present",
         "duration": "3 mos",
         "location": "San Bruno, California",
-        "title": "Software Engineer"
+        "title": "Software Engineer",
+        "job_id": 0
       },
       {
         "extra": "Software Engineer\n",
@@ -215,7 +232,8 @@
         "dates": "Sep 2017 – Jun 2019",
         "duration": "1 yr 10 mos",
         "location": "Hanover, New Hampshire",
-        "title": "Software Engineer"
+        "title": "Software Engineer",
+        "job_id": 1
       },
       {
         "extra": "Software Engineer Intern\n",
@@ -223,7 +241,8 @@
         "dates": "Jun 2018 – Aug 2018",
         "duration": "3 mos",
         "location": "Seattle, Washington",
-        "title": "Software Engineer Intern"
+        "title": "Software Engineer Intern",
+        "job_id": 2
       },
       {
         "extra": "Technology Winter Analyst\n",
@@ -231,7 +250,8 @@
         "dates": "Jan 2018 – Mar 2018",
         "duration": "3 mos",
         "location": "New York, New York",
-        "title": "Technology Winter Analyst"
+        "title": "Technology Winter Analyst",
+        "job_id": 3
       }
     ]
   },
@@ -259,6 +279,7 @@
     "favoriteArtist": "Kanye",
     "favoriteColor": "Red",
     "phoneType": "iOS",
+    "id": 4,
     "jobs": [
       {
         "extra": "Software Development Engineer\n",
@@ -266,7 +287,8 @@
         "dates": "Aug 2019 – Present",
         "duration": "3 mos",
         "location": "Seattle, Washington",
-        "title": "Software Development Engineer"
+        "title": "Software Development Engineer",
+        "job_id": 0
       },
       {
         "extra": "Software Engineer\n",
@@ -274,28 +296,32 @@
         "dates": "Sep 2018 – Jun 2019",
         "duration": "10 mos",
         "location": "Hanover, New Hampshire",
-        "title": "Software Engineer"
+        "title": "Software Engineer",
+        "job_id": 1
       },
       {
         "extra": "Software Developer\nFreelance development work via various sites on the Internet including guru.com and client\nrecommendation. Projects have included desktop applications written in .NET, web development,\nand Java server/client applications.\n",
         "company_name": "Freelance Software Development",
         "dates": "Sep 2011 – Jun 2019",
         "duration": "7 yrs 10 mos",
-        "title": "Software Developer"
+        "title": "Software Developer",
+        "job_id": 2
       },
       {
         "extra": "Summer Intern\n",
         "company_name": "PwC",
         "dates": "Jul 2018 – Aug 2018",
         "duration": "2 mos",
-        "title": "Summer Intern"
+        "title": "Summer Intern",
+        "job_id": 3
       },
       {
         "extra": "Software Developer\nMaintained and implemented new server-side and client-side features for a small, massively\nmultiplayer online game. Primarily worked in Java, SQL, and Linux with two other developers to fix\nbugs, optimize old network and game code, and implement new major game features.\nVolunteer Experience\n",
         "company_name": "Legendary, LLC",
         "dates": "Jan 2013 – Mar 2015",
         "duration": "2 yrs 3 mos",
-        "title": "Software Developer"
+        "title": "Software Developer",
+        "job_id": 4
       }
     ]
   },
@@ -323,6 +349,7 @@
     "favoriteArtist": "The Wiggles ",
     "favoriteColor": "Black",
     "phoneType": "Other",
+    "id": 5,
     "jobs": [
       {
         "extra": "Program Manager\nFeature PM for Microsoft Intune's Android Mobile Device Management team. Specialized in\nruggedized and other specialized devices.\n",
@@ -330,7 +357,8 @@
         "dates": "Aug 2019 – Present",
         "duration": "3 mos",
         "location": "Greater Boston Area",
-        "title": "Program Manager"
+        "title": "Program Manager",
+        "job_id": 0
       },
       {
         "extra": "3 hrs/week answering questions from lab members 1-on-1 about React Native, Javascript, Adobe\nAftereffects, Adobe Illustrator, Adobe Premier Pro, Autodesk Maya, and overall lab culture.\n5-15  hrs/week managing a small team of student designers and developers to design, develop,\nand present projects to recipients around the world. New projects introduced every 10 weeks.\nShow 1 more role\n",
@@ -338,7 +366,8 @@
         "duration": "3 yrs 10 mos",
         "title": "Project Manager, Software Developer, and Designer",
         "dates": "Sep 2015 – Jun 2019",
-        "location": "Dartmouth College"
+        "location": "Dartmouth College",
+        "job_id": 1
       },
       {
         "extra": "Program Management Intern\n\tWrote and presented feature specification for syncing and distributing prerelease LoB Android\napps from the Managed Google Play Store with Microsoft Intune. Drove wireframe and\nmulti-platform discussions with UX team.\n\tWrote and presented feature specification for enabling multi-user support for Intune C\n",
@@ -346,7 +375,8 @@
         "dates": "Jun 2018 – Aug 2018",
         "duration": "3 mos",
         "location": "Greater Boston Area",
-        "title": "Program Management Intern"
+        "title": "Program Management Intern",
+        "job_id": 2
       }
     ]
   },
@@ -374,6 +404,7 @@
     "favoriteArtist": "A$AP Rocky",
     "favoriteColor": "Forest Green",
     "phoneType": "Android",
+    "id": 6,
     "jobs": [
       {
         "extra": "As Undergraduate Advisors, we are role models who advance the goals of making Dartmouth a\nhealthy and welcoming space by acting as guides and consultants for our fellow students.\nWe studied physical movement and interpersonal engagement throughout a shared social space to\nunderstand how mingling behavior influences and reflects network development.\n",
@@ -381,7 +412,8 @@
         "duration": "4 mos",
         "title": "Full-Time Research Assistant",
         "dates": "Sep 2018 – Dec 2018",
-        "location": "Hanover,"
+        "location": "Hanover,",
+        "job_id": 0
       },
       {
         "extra": "Product Designer\nDartmouth's DALI Lab brings students interested in Design, Project Management, and Development\ntogether to build innovative projects and learn together.\nI work with a small team doing user research and rapid prototyping to develop an objec\n",
@@ -389,7 +421,8 @@
         "dates": "Mar 2019 – Jun 2019",
         "duration": "4 mos",
         "location": "Hanover NH",
-        "title": "Product Designer"
+        "title": "Product Designer",
+        "job_id": 1
       }
     ]
   },
@@ -417,13 +450,15 @@
     "favoriteArtist": "Burna Boy",
     "favoriteColor": "Blue",
     "phoneType": "Android",
+    "id": 7,
     "jobs": [
       {
         "extra": "Incoming SWE Intern\n",
         "company_name": "Google",
         "dates": "Oct 2019 – Present",
         "duration": "1 mo",
-        "title": "Incoming SWE Intern"
+        "title": "Incoming SWE Intern",
+        "job_id": 0
       },
       {
         "extra": "Software Developer\n The  DALI Lab is an experiential learning center supported by the Computer Science Department\nand the Magnuson Center for Entrepreneurship. Teams consisting of software developers, designers\nand project managers work together to create products for DALI's clients.\n",
@@ -431,7 +466,8 @@
         "dates": "Mar 2019 – Present",
         "duration": "8 mos",
         "location": "Hanover,NH",
-        "title": "Software Developer"
+        "title": "Software Developer",
+        "job_id": 1
       },
       {
         "extra": "Engineering Practicum Intern\n",
@@ -439,7 +475,8 @@
         "dates": "Jun 2019 – Sep 2019",
         "duration": "4 mos",
         "location": "Sunnyvale,California",
-        "title": "Engineering Practicum Intern"
+        "title": "Engineering Practicum Intern",
+        "job_id": 2
       },
       {
         "extra": "Teaching Assistant, COSC 50\n I am a Teaching Assistant for Professor David Kotz Software Design and Implementation (COSC\n50) class.\n I  meet with a group of around 10 students once per week to go over software engineering\nprinciples as well as to help them write bash scripts and code in C.\n",
@@ -447,7 +484,8 @@
         "dates": "Mar 2019 – Jun 2019",
         "duration": "4 mos",
         "location": "Hanover,NH",
-        "title": "Teaching Assistant, COSC 50"
+        "title": "Teaching Assistant, COSC 50",
+        "job_id": 3
       }
     ]
   },
@@ -475,6 +513,7 @@
     "favoriteArtist": "AJR",
     "favoriteColor": "Purple",
     "phoneType": "iOS",
+    "id": 8,
     "jobs": [
       {
         "extra": "Software Engineer\nEngineer on Robinhood's Consumer Web team.\n",
@@ -482,7 +521,8 @@
         "dates": "Jul 2019 – Present",
         "duration": "4 mos",
         "location": "Menlo Park, California",
-        "title": "Software Engineer"
+        "title": "Software Engineer",
+        "job_id": 0
       },
       {
         "extra": "Mentoring developers and in charge of hiring for the lab.\nShow 1 more role\n",
@@ -490,7 +530,8 @@
         "duration": "2 yrs 1 mo",
         "title": "Project Manager",
         "dates": "Jun 2017 – Jun 2019",
-        "location": "Hanover, New Hampshire"
+        "location": "Hanover, New Hampshire",
+        "job_id": 1
       },
       {
         "extra": "CEO, Co-Founder\nThe internet's first and only text message analyzing web platform. Over 100 million texts analyzed.\nReact, Node/Express, Python, MongoDB, Linux\n",
@@ -498,7 +539,8 @@
         "dates": "Apr 2018 – Jun 2019",
         "duration": "1 yr 3 mos",
         "location": "Hanover, New Hampshire",
-        "title": "CEO, Co-Founder"
+        "title": "CEO, Co-Founder",
+        "job_id": 2
       },
       {
         "extra": "Software Engineering Intern\nFull Stack Engineer on Instagram's Ads Solutions Team.\nHack, React, Flux\n",
@@ -506,7 +548,8 @@
         "dates": "Jun 2018 – Aug 2018",
         "duration": "3 mos",
         "location": "Menlo Park, California",
-        "title": "Software Engineering Intern"
+        "title": "Software Engineering Intern",
+        "job_id": 3
       },
       {
         "extra": "Software Engineering Intern\nFull Stack Engineer on the Test & Learn Analytics Team. Implemented a new attribute matching\nalgorithm to enhance performance, and provide new metrics.\nC#, R, SQL, Knockout.js\nShow 2 more experiences\nVolunteer Experience\n",
@@ -514,7 +557,8 @@
         "dates": "Jan 2018 – Mar 2018",
         "duration": "3 mos",
         "location": "Arlington, Virginia",
-        "title": "Software Engineering Intern"
+        "title": "Software Engineering Intern",
+        "job_id": 4
       }
     ]
   },
@@ -542,6 +586,7 @@
     "favoriteArtist": "Rex Orange County",
     "favoriteColor": "Blue",
     "phoneType": "iOS",
+    "id": 9,
     "jobs": [
       {
         "extra": "Designer\n",
@@ -549,7 +594,8 @@
         "dates": "Mar 2019 – Present",
         "duration": "8 mos",
         "location": "Dartmouth College",
-        "title": "Designer"
+        "title": "Designer",
+        "job_id": 0
       }
     ]
   },
@@ -577,6 +623,7 @@
     "favoriteArtist": "noah kahan",
     "favoriteColor": "Blue",
     "phoneType": "iOS",
+    "id": 10,
     "jobs": [
       {
         "extra": "Project Manager\nEach term I manage a group of students, developers and designers, in making a product for our\npartner, which changes term to term. I do all the communication between the partner and our\ngroup, make sure we are meeting deadlines, write project related documents, and anything else our\nteam needs to succeed.\n",
@@ -584,7 +631,8 @@
         "dates": "Jan 2019 – Present",
         "duration": "10 mos",
         "location": "Hanover, NH",
-        "title": "Project Manager"
+        "title": "Project Manager",
+        "job_id": 0
       },
       {
         "extra": "Academic Private Tutor\nTutor elementary through high school students on school subjects except foreign language, SSAT,\nand SAT/ACT.\n",
@@ -592,7 +640,8 @@
         "dates": "Jan 2018 – Present",
         "duration": "1 yr 10 mos",
         "location": "Honolulu, HI",
-        "title": "Academic Private Tutor"
+        "title": "Academic Private Tutor",
+        "job_id": 1
       },
       {
         "extra": "Computer Science Tutor\nTutored Dartmouth students in the Full Stack Web Development course. The tech stack we used\nwas React, Redux, NodeJS, Express, and MongoDB.\n",
@@ -600,7 +649,8 @@
         "dates": "Mar 2019 – Jun 2019",
         "duration": "4 mos",
         "location": "Hanover, NH",
-        "title": "Computer Science Tutor"
+        "title": "Computer Science Tutor",
+        "job_id": 2
       }
     ]
   },
@@ -628,6 +678,7 @@
     "favoriteArtist": "BTS",
     "favoriteColor": "Pink silver black",
     "phoneType": "iOS",
+    "id": 11,
     "jobs": [
       {
         "extra": "UI/UX Designer\n Have been working in the Lynd Lab as an undergraduate researcher since Freshman Winter (16W)\n Spent an off-term (16X) performing full-time research\n Recipient of the Sophomore Science Scholarship for two terms (16F, 17W)\n Project was analyzing the enzyme Alcohol Dehydrogenase (AdhA), with an emphasis o\nExpression of adhA from different organisms in Clostridium thermocellum\nExpression of adhA from different organisms in Clostridium thermocellum\n Selected as the AT (also known as drill instructor) for Introductory Japanese courses in the Asian\nand Middle Eastern Languages and Literatures Department for five terms (16F, 17W, 17S, 18W, 18F)\n Contributed over 180 hours in instructing drill classes for JAPN 1, JAPN 2, and JAPN 3 courses\nShow 1 more role\n",
@@ -635,42 +686,48 @@
         "dates": "Sep 2016 – Present",
         "duration": "3 yrs 2 mos",
         "location": "Department of Asian and Middle Eastern Languages and Literatures",
-        "title": "Japanese Apprentice Teacher (AT)"
+        "title": "Japanese Apprentice Teacher (AT)",
+        "job_id": 0
       },
       {
         "extra": "Dartmouth International Genetically Engineered Machine (iGEM)\n Founder and president of the Dartmouth iGEM Team, formed in January of 2016\n Developed a team of undergraduate researchers involved in biology and chemistry research to\nperform synthetic biology and molecular engineering research project\n Awarded over $12,000 in funding from the Thayer School of Engineering, The Arthur L.\n",
         "company_name": "Thayer School of Engineering at Dartmouth",
         "dates": "Jan 2016 – Present",
         "duration": "3 yrs 10 mos",
-        "title": "Dartmouth International Genetically Engineered Machine (iGEM)"
+        "title": "Dartmouth International Genetically Engineered Machine (iGEM)",
+        "job_id": 1
       },
       {
         "extra": "Dartmouth Cancer Scholars\n Chosen as one of 20 students to take part in DCS, which is a selective program for undergraduate\nstudents to explore their demonstrated interests in cancer research and/or clinical oncology\n Selected to lead the program as a member of the 2017-2018 Directorate (comprises of three\nundergraduate students)\n",
         "company_name": "Norris Cotton Cancer Center",
         "dates": "Sep 2016 – Jun 2018",
         "duration": "1 yr 10 mos",
-        "title": "Dartmouth Cancer Scholars"
+        "title": "Dartmouth Cancer Scholars",
+        "job_id": 2
       },
       {
         "extra": "United Nations Habitat Urban Youth Fund Mentorship Program\n Facilitating and assisting the Urban Youth Fund Mentorship Program revamp and reconstruction\n Working with mentors from approximately 18 countries every year to help them mentor urban\nyouth\n Recent project revamping concentrated on Colombia\nShow 2 more experiences\nVolunteer Experience\n",
         "company_name": "United Nations",
         "dates": "Jul 2017 – Nov 2017",
         "duration": "5 mos",
-        "title": "United Nations Habitat Urban Youth Fund Mentorship Program"
+        "title": "United Nations Habitat Urban Youth Fund Mentorship Program",
+        "job_id": 3
       },
       {
         "extra": "Jamboree Volunteer\nCause\nEducation\nVolunteered at the Collegiate International Jamboree, assisted videotaping presentations and translating for International teams\n",
         "company_name": "International Genetically Engineered Machine",
         "dates": "2013",
         "duration": "less than a year",
-        "title": "Jamboree Volunteer"
+        "title": "Jamboree Volunteer",
+        "job_id": 4
       },
       {
         "extra": "Professional Piano Accompanist\nCause\nArts and Culture\nProfessional Piano Accompanist in performing arts; past experience: chorus (women's choral, mixed chorus) / musicals (Little Women, Once Upon a Mattress) / band\n",
         "company_name": "Performing Arts",
         "dates": "Aug 2011 – Present",
         "duration": "8 yrs 3 mos",
-        "title": "Professional Piano Accompanist"
+        "title": "Professional Piano Accompanist",
+        "job_id": 5
       }
     ]
   },
@@ -698,6 +755,7 @@
     "favoriteArtist": "NA",
     "favoriteColor": "Blue",
     "phoneType": "iOS",
+    "id": 12,
     "jobs": [
       {
         "extra": "Software Engineer Intern\n",
@@ -705,14 +763,16 @@
         "dates": "Jun 2019 – Present",
         "duration": "5 mos",
         "location": "Menlo Park, CA",
-        "title": "Software Engineer Intern"
+        "title": "Software Engineer Intern",
+        "job_id": 0
       },
       {
         "extra": "Software Engineer and Product Designer\n Collaborated with 8 teams of developers, designers, and project managers in all stages of\nproducts, from user research, ideation, high-fidelity mockups, software prototypes, and final\nproduct delivery\n Designed and developed wireframes, user flows, and app prototypes for over 7 clients,\n",
         "company_name": "DALI Lab",
         "dates": "Dec 2016 – Present",
         "duration": "2 yrs 11 mos",
-        "title": "Software Engineer and Product Designer"
+        "title": "Software Engineer and Product Designer",
+        "job_id": 1
       },
       {
         "extra": "Music Video Director\n Directed a documentary for Scottish musician Martha Ffion\n Oversaw all production stages and organized a team of 9 screws, such as producers,\ncinematographers, and editors\n",
@@ -720,35 +780,40 @@
         "dates": "Jun 2018 – Aug 2018",
         "duration": "3 mos",
         "location": "Edinburgh, United Kingdom",
-        "title": "Music Video Director"
+        "title": "Music Video Director",
+        "job_id": 2
       },
       {
         "extra": "Research Intern\n Retrieved real-time sensor data of crazyflie drones using Python script and logged its acceleration\nand quaternion data\n Implemented threads and sockets in C# to communicate tracking data with external Vicon server\n Utilized FFTW library in C to decompose original frequency components buried in nois\n",
         "company_name": "DartNets Lab",
         "dates": "Jan 2018 – Jun 2018",
         "duration": "6 mos",
-        "title": "Research Intern"
+        "title": "Research Intern",
+        "job_id": 3
       },
       {
         "extra": "CS1 Introduction to Computer Science\nCS52 Full-Stack Web Development\n Led weekly coding drills and office hours to clarify topics including recursion, data stru\n Produced video contents to promote the new Learning Fellows Program, French Business class,\nand Stamps Scholar Program, serving as an interviewer, videographer, and editor\nShow 2 more experiences\nVolunteer Experience\n",
         "company_name": "Dartmouth College",
         "duration": "1 yr 8 mos",
         "title": "Media Maker at Media Production Group(MPG)",
-        "dates": "Nov 2016 – Jun 2018"
+        "dates": "Nov 2016 – Jun 2018",
+        "job_id": 4
       },
       {
         "extra": "Membershiped Volunteer\n",
         "company_name": "Vancouver Art Gallery",
         "dates": "2014 – 2016",
         "duration": "2 yrs",
-        "title": "Membershiped Volunteer"
+        "title": "Membershiped Volunteer",
+        "job_id": 5
       },
       {
         "extra": "Virtual Reality Affinity Group Leader\n",
         "company_name": "Rewriting the Code",
         "dates": "Jun 2018 – Present",
         "duration": "1 yr 5 mos",
-        "title": "Virtual Reality Affinity Group Leader"
+        "title": "Virtual Reality Affinity Group Leader",
+        "job_id": 6
       }
     ]
   },
@@ -776,6 +841,7 @@
     "favoriteArtist": "Zakhir Hussain",
     "favoriteColor": "Yellow",
     "phoneType": "Android",
+    "id": 13,
     "jobs": [
       {
         "extra": "Product Intern\n",
@@ -783,7 +849,8 @@
         "dates": "Jun 2019 – Present",
         "duration": "5 mos",
         "location": "Greater Boston Area",
-        "title": "Product Intern"
+        "title": "Product Intern",
+        "job_id": 0
       },
       {
         "extra": "Product Manager\nLeading a team of 6 developers and designers to build a solution based on Natural Language\nProcessing (NLP) technology for our partner startup TeachDELTA to combat the problem of\nunintentional bias in teaching based on gender, race and ethnicity\n\tSuccessfully led the team to build the product within 12 weeks, 2 weeks before the lau\nour story | teachDELTA\nour story | teachDELTA\nteachDELTA Teacher Explainer Video\nteachDELTA Teacher Explainer Video\n",
@@ -791,14 +858,16 @@
         "dates": "Jan 2019 – Jun 2019",
         "duration": "6 mos",
         "location": "Hanover",
-        "title": "Product Manager"
+        "title": "Product Manager",
+        "job_id": 1
       },
       {
         "extra": "Student Consultant\nTechnology Assessment Course Project on assessing the current stage of technologies of\nautonomous vehicles, timeline and go-to-market strategy for Launching SAE-Level 5 driverless\nvehicles.\n\tResearched the technologies used in fully autonomous vehicles (SAE Level 5) including\nAutonomous Vehicle Technology_Aatman Vora- PPT.pdf\nAutonomous Vehicle Technology_Aatman Vora- PPT.pdf\nAutonomous Vehicle Technology_Aatman Vora - Final Report.pdf\nAutonomous Vehicle Technology_Aatman Vora - Final Report.pdf\n",
         "company_name": "Thayer School of Engineering at Dartmouth",
         "dates": "Sep 2018 – Dec 2018",
         "duration": "4 mos",
-        "title": "Student Consultant"
+        "title": "Student Consultant",
+        "job_id": 2
       },
       {
         "extra": "Graduate Teaching Assistant ENGS 93: Statistical Methods in Engineering\n",
@@ -806,7 +875,8 @@
         "dates": "Sep 2018 – Nov 2018",
         "duration": "3 mos",
         "location": "Hanover, New Hampshire",
-        "title": "Graduate Teaching Assistant ENGS 93: Statistical Methods in Engineering"
+        "title": "Graduate Teaching Assistant ENGS 93: Statistical Methods in Engineering",
+        "job_id": 3
       },
       {
         "extra": "Business Technology Analyst\nTechnology Case: Consulted and built the “Apply of Benefits” portal for Govt of Michigan on\n\tBuilt a tool to automate the translation of entire portal to Spanish thus saving 320 hours of human\nwork\nShow 5 more experiences\nVolunteer Experience\n",
@@ -814,14 +884,16 @@
         "dates": "Jun 2017 – Jun 2018",
         "duration": "1 yr 1 mo",
         "location": "Mumbai Area, India",
-        "title": "Business Technology Analyst"
+        "title": "Business Technology Analyst",
+        "job_id": 4
       },
       {
         "extra": "Volunteer\nCause\nEducation\n",
         "company_name": "Teach For India",
         "dates": "Sep 2017 – Jan 2018",
         "duration": "5 mos",
-        "title": "Volunteer"
+        "title": "Volunteer",
+        "job_id": 5
       }
     ]
   },
@@ -849,6 +921,7 @@
     "favoriteArtist": "Aloe Blacc",
     "favoriteColor": "Blue",
     "phoneType": "iOS",
+    "id": 14,
     "jobs": [
       {
         "extra": "Project Manager\n",
@@ -856,7 +929,8 @@
         "dates": "Nov 2018 – Present",
         "duration": "1 yr",
         "location": "Hanover, NH",
-        "title": "Project Manager"
+        "title": "Project Manager",
+        "job_id": 0
       },
       {
         "extra": "Technical Writing Intern\n",
@@ -864,7 +938,8 @@
         "dates": "Jun 2019 – Aug 2019",
         "duration": "3 mos",
         "location": "San Francisco Bay Area",
-        "title": "Technical Writing Intern"
+        "title": "Technical Writing Intern",
+        "job_id": 1
       },
       {
         "extra": "Marketing and Research Intern at the Center for Digital Strategies\n",
@@ -872,7 +947,8 @@
         "dates": "Jun 2018 – Jun 2019",
         "duration": "1 yr 1 mo",
         "location": "Hanover, NH",
-        "title": "Marketing and Research Intern at the Center for Digital Strategies"
+        "title": "Marketing and Research Intern at the Center for Digital Strategies",
+        "job_id": 2
       },
       {
         "extra": "Historical Accountability Research Intern\n",
@@ -880,7 +956,8 @@
         "dates": "Jan 2019 – Mar 2019",
         "duration": "3 mos",
         "location": "Hanover, NH",
-        "title": "Historical Accountability Research Intern"
+        "title": "Historical Accountability Research Intern",
+        "job_id": 3
       }
     ]
   },
@@ -908,6 +985,7 @@
     "favoriteArtist": "Quinn XCII",
     "favoriteColor": "Blue",
     "phoneType": "iOS",
+    "id": 15,
     "jobs": [
       {
         "extra": "",
@@ -915,7 +993,8 @@
         "duration": "8 mos",
         "title": "Digital Designer for 6AM Health",
         "dates": "Mar 2019 – Present",
-        "location": "DALI Lab"
+        "location": "DALI Lab",
+        "job_id": 0
       },
       {
         "extra": "Assistent Tennis Pro\nTaught tennis to children 4 - 13 at a tennis club in Cape Cod during the summer.\n",
@@ -923,14 +1002,16 @@
         "dates": "Jun 2015 – Aug 2018",
         "duration": "3 yrs 3 mos",
         "location": "Craigville, Cape Cod",
-        "title": "Assistent Tennis Pro"
+        "title": "Assistent Tennis Pro",
+        "job_id": 1
       },
       {
         "extra": "Digital Media Editor of The Nobleman\nVolunteer Experience\n",
         "company_name": "The Nobleman",
         "dates": "Sep 2017 – Jun 2018",
         "duration": "10 mos",
-        "title": "Digital Media Editor of The Nobleman"
+        "title": "Digital Media Editor of The Nobleman",
+        "job_id": 2
       }
     ]
   },
@@ -958,34 +1039,39 @@
     "favoriteArtist": "Khruangbin",
     "favoriteColor": "Blue",
     "phoneType": "iOS",
+    "id": 16,
     "jobs": [
       {
         "extra": "Software Engineer\n",
         "company_name": "DALI Lab",
         "dates": "Jan 2017 – Present",
         "duration": "2 yrs 10 mos",
-        "title": "Software Engineer"
+        "title": "Software Engineer",
+        "job_id": 0
       },
       {
         "extra": "Software Engineering Intern\n",
         "company_name": "Tenzo",
         "dates": "Sep 2018 – Dec 2018",
         "duration": "4 mos",
-        "title": "Software Engineering Intern"
+        "title": "Software Engineering Intern",
+        "job_id": 1
       },
       {
         "extra": "Software Engineering Intern\n",
         "company_name": "The Zamani Project",
         "dates": "Jun 2017 – Jul 2017",
         "duration": "2 mos",
-        "title": "Software Engineering Intern"
+        "title": "Software Engineering Intern",
+        "job_id": 2
       },
       {
         "extra": "Research Intern\n",
         "company_name": "The Dartmouth Institute for Health Policy & Clinical Practice",
         "dates": "Jan 2017 – Jun 2017",
         "duration": "6 mos",
-        "title": "Research Intern"
+        "title": "Research Intern",
+        "job_id": 3
       }
     ]
   },
@@ -1013,13 +1099,15 @@
     "favoriteArtist": "J. Cole",
     "favoriteColor": "Yellow",
     "phoneType": "iOS",
+    "id": 17,
     "jobs": [
       {
         "extra": "",
         "company_name": "Spikeball Inc.",
         "duration": "5 mos",
         "title": "Social Media Intern",
-        "dates": "Jun 2019 – Oct 2019"
+        "dates": "Jun 2019 – Oct 2019",
+        "job_id": 0
       },
       {
         "extra": "Project Manager\n Communication liaison and organizational head of “Ryleigh’s Box” student design project\n Coordinate research, user testing, and prototyping to develop a sensory toy for Autistic users\n",
@@ -1027,21 +1115,24 @@
         "dates": "Mar 2019 – Present",
         "duration": "8 mos",
         "location": "Dartmouth College, Hanover, NH",
-        "title": "Project Manager"
+        "title": "Project Manager",
+        "job_id": 1
       },
       {
         "extra": "Intern\n",
         "company_name": "Dartmouth Athletic Communications Office",
         "dates": "Dec 2018 – Present",
         "duration": "11 mos",
-        "title": "Intern"
+        "title": "Intern",
+        "job_id": 2
       },
       {
         "extra": "House Center Student Manager\n- Point-of-contact for students/House Center visitors while on duty\n- Create & implement programs hosted by the House Center\n- House social media upkeep\n- Maintain the building and its equipment\n",
         "company_name": "Dartmouth College",
         "dates": "Apr 2017 – Present",
         "duration": "2 yrs 7 mos",
-        "title": "House Center Student Manager"
+        "title": "House Center Student Manager",
+        "job_id": 3
       }
     ]
   },
@@ -1069,6 +1160,7 @@
     "favoriteArtist": "Juice WRLD",
     "favoriteColor": "Blue",
     "phoneType": "Android",
+    "id": 18,
     "jobs": [
       {
         "extra": "Software Engineering Intern\nFull-stack engineering intern for the IBM Cloud/Watson Group\n- OpenShift, EDGE, and Cognitive Applications\n",
@@ -1076,7 +1168,8 @@
         "dates": "May 2019 – Present",
         "duration": "6 mos",
         "location": "Research Triangle Park, NC",
-        "title": "Software Engineering Intern"
+        "title": "Software Engineering Intern",
+        "job_id": 0
       },
       {
         "extra": "Software Engineer and Product Designer\n\tDesigned and built a program to help eliminate food waste on college campuses\n\tCollaborated with developers to create a mobile application in React-Native\n\tPerformed qualitative user research through the use of surveys and interviews\n\tMet with college administration to find areas of improvement\n",
@@ -1084,7 +1177,8 @@
         "dates": "Dec 2018 – Present",
         "duration": "11 mos",
         "location": "Hanover, NH",
-        "title": "Software Engineer and Product Designer"
+        "title": "Software Engineer and Product Designer",
+        "job_id": 1
       },
       {
         "extra": "Software Developer and Research Assistant\n\tWorked on a NASA-funded project to build a virtual therapist for astronauts\n\tBuilt an encryption tool to protect against mishandling of personally identifiable information\n\tTrained shallow neural networks on a block of corpus text to find word similarities\n\tDeveloped a journaling module for the Space Medical Innovations Laboratory\n",
@@ -1092,7 +1186,8 @@
         "dates": "Oct 2017 – Present",
         "duration": "2 yrs 1 mo",
         "location": "Hanover, New Hampshire",
-        "title": "Software Developer and Research Assistant"
+        "title": "Software Developer and Research Assistant",
+        "job_id": 2
       },
       {
         "extra": "Teaching Assistant\nComputer Science 50: Software Design and Implementation for Professor David Kotz.\n- Lead weekly recitation sessions\n- Provide help and grading for lab assignments coded in C and Bash.\n",
@@ -1100,7 +1195,8 @@
         "dates": "Mar 2019 – Present",
         "duration": "8 mos",
         "location": "Hanover, NH",
-        "title": "Teaching Assistant"
+        "title": "Teaching Assistant",
+        "job_id": 3
       }
     ]
   },
@@ -1128,6 +1224,7 @@
     "favoriteArtist": "Lorde",
     "favoriteColor": "Blue",
     "phoneType": "iOS",
+    "id": 19,
     "jobs": [
       {
         "extra": "UX Designer, Neukom Scholar\nI rework complicated projects into intuitive user interfaces.\nMost recent project: cindy-shen.com/design-1\n",
@@ -1135,14 +1232,16 @@
         "dates": "Mar 2019 – Present",
         "duration": "8 mos",
         "location": "Hanover, New Hampshire",
-        "title": "UX Designer, Neukom Scholar"
+        "title": "UX Designer, Neukom Scholar",
+        "job_id": 0
       },
       {
         "extra": "Nationally-Ranked Fencer\nTwo-Time National Collegiate Club Fencing Champion (2018 and 2019)\nUSA Fencing Four-time Junior Olympian (2015, 2016, 2017, and 2019)\n",
         "company_name": "USA Fencing",
         "dates": "2014 – Present",
         "duration": "5 yrs",
-        "title": "Nationally-Ranked Fencer"
+        "title": "Nationally-Ranked Fencer",
+        "job_id": 1
       },
       {
         "extra": "James O. Freedman Presidential Research Scholar\nI modeled deviations from neoclassical economic predictions in corporate takeover auctions under\nthe guidance of Professor B. Espen Eckbo.\n",
@@ -1150,7 +1249,8 @@
         "dates": "Jun 2019 – Aug 2019",
         "duration": "3 mos",
         "location": "Hanover, New Hampshire",
-        "title": "James O. Freedman Presidential Research Scholar"
+        "title": "James O. Freedman Presidential Research Scholar",
+        "job_id": 2
       }
     ]
   },
@@ -1178,6 +1278,7 @@
     "favoriteArtist": "Logic",
     "favoriteColor": "Orange",
     "phoneType": "iOS",
+    "id": 20,
     "jobs": [
       {
         "extra": "Software Engineer\nDartmouth Applied Learning and Innovation Lab (DALI Lab) is a selective program that is fueled by\nsponsors like Github and Slack and partners with innovators in nonprofits, startups and corporate to\nproduce useful tech products. Students are put on teams of 5 including a product manager, two\ndesigners, and two software engineers that are tasked to build a product to the client's liking within\na 10-week term.\nNudg - Personal Relationship Manager\n",
@@ -1185,7 +1286,8 @@
         "dates": "Mar 2018 – Present",
         "duration": "1 yr 8 mos",
         "location": "Hanover",
-        "title": "Software Engineer"
+        "title": "Software Engineer",
+        "job_id": 0
       },
       {
         "extra": "Software Engineer Intern\nBuilt a fastscroll experience for Facebook Stories archive on the Facebook App (iOS side)\n",
@@ -1193,7 +1295,8 @@
         "dates": "Jun 2019 – Sep 2019",
         "duration": "4 mos",
         "location": "Menlo Park",
-        "title": "Software Engineer Intern"
+        "title": "Software Engineer Intern",
+        "job_id": 1
       },
       {
         "extra": "Software Engineer Intern\n The Pill Club is a leader in simplifying the process of getting birth control, from prescription to\ndelivery\n Building the Call Center Based off of Amazon Connect\n Integrating Internal tools with a Contact Control Panel that includes voicemail and call\n",
@@ -1201,14 +1304,16 @@
         "dates": "Nov 2018 – Mar 2019",
         "duration": "5 mos",
         "location": "San Carlos, California",
-        "title": "Software Engineer Intern"
+        "title": "Software Engineer Intern",
+        "job_id": 2
       },
       {
         "extra": "Software Engineer Internship\n Lore IO is a Startup founded by ex-Chief Architect of Kosmix/Walmart Lab and it’s vision is to\nsimplicity data management\n Integrated the powerful analytic of Lore IO with the beautiful interface of Tableau\n Acquired a better understanding of working on a team to build a final product\n",
         "company_name": "Lore IO",
         "dates": "Jun 2017 – Sep 2017",
         "duration": "4 mos",
-        "title": "Software Engineer Internship"
+        "title": "Software Engineer Internship",
+        "job_id": 3
       },
       {
         "extra": "Technical Sourcer\n Catapulse is a premier boutique search firm with a track record of having helped build startups\nlike Twitter, Square, Coursera. The founder was the first executive recruiter at the White House’s\nUSDS arm\n Finding stellar software engineers for high growth startups using platforms like Linkedi\nVolunteer Experience\n",
@@ -1216,7 +1321,8 @@
         "dates": "2015 – 2016",
         "duration": "1 yr",
         "location": "San Jose, CA",
-        "title": "Technical Sourcer"
+        "title": "Technical Sourcer",
+        "job_id": 4
       }
     ]
   },
@@ -1244,6 +1350,7 @@
     "favoriteArtist": "Halsey",
     "favoriteColor": "Blue",
     "phoneType": "iOS",
+    "id": 21,
     "jobs": [
       {
         "extra": "Software Developer\nCollaborating with other developers, designers, project managers, and clients to help produce\ntechnological solutions catered to the partner's needs. Learning about different back end and front\nend web development tools and styles from more senior members and from teammates. Solving\nreal-world problems with working prototypes that come out of a term's work.\n",
@@ -1251,7 +1358,8 @@
         "dates": "Jan 2018 – Present",
         "duration": "1 yr 10 mos",
         "location": "Hanover, New Hampshire",
-        "title": "Software Developer"
+        "title": "Software Developer",
+        "job_id": 0
       },
       {
         "extra": "Leading, grading, and mentoring for both the Object Oriented Programming class and the\nIntroductory Computer Science class at Dartmouth College. Holding office hours to help students\nbetter understand class concepts and nuances, grading problem sets and short assignments, and\ncontributing to class structure and direction during weekly meetings between staff mem\nCreated the opportunity through Dartmouth's computer science department to study mobile\nprogramming and entrepreneurship in tech. Built a mobile calendar app using React Native and\nGoogle Firebase which facilitated organization, exploration, and diversification. Pitched the product\nand its business plan to investors at the end of the term.\n",
@@ -1259,14 +1367,16 @@
         "duration": "4 mos",
         "title": "Independent Study: Mobile Programming & Entrepreneurship",
         "dates": "May 2018 – Aug 2018",
-        "location": "Hanover, New Hampshire"
+        "location": "Hanover, New Hampshire",
+        "job_id": 1
       },
       {
         "extra": "Software Engineering Intern\nJoined the Accessibility Insights team in Microsoft's Developer Division to work on the web version\nof the product. Contributing to the recently open source project with Typescript and React,\nresponding to user feature requests and bugs. Delivering a feature which allows developers to\norganize information and ensure their websites meet accessibility standards.\n",
         "company_name": "Microsoft",
         "dates": "Jun 2019 – Aug 2019",
         "duration": "3 mos",
-        "title": "Software Engineering Intern"
+        "title": "Software Engineering Intern",
+        "job_id": 2
       },
       {
         "extra": "Software Engineering Intern\nJoining the AMP Cache/SCS team to complete a deliverable, 12-week project to improve user\nexperience. Understanding and utilizing both internal tools at Google as well as C++ in order to\nsucceed. Gaining an understanding of Google's infrastructure and culture while contributing as an\nindividual and team member.\n",
@@ -1274,7 +1384,8 @@
         "dates": "Jan 2019 – Mar 2019",
         "duration": "3 mos",
         "location": "Greater New York City Area",
-        "title": "Software Engineering Intern"
+        "title": "Software Engineering Intern",
+        "job_id": 3
       },
       {
         "extra": "Staff Writer\nContributed to Dartmouth’s newspaper by writing for the online humor and blog section.\nCommented on campus traditions, events, and happenings through an amusing and provocative\nlens.\nShow 2 more experiences\nVolunteer Experience\n",
@@ -1282,21 +1393,24 @@
         "dates": "Jan 2017 – Mar 2019",
         "duration": "2 yrs 3 mos",
         "location": "Hanover, New Hampshire",
-        "title": "Staff Writer"
+        "title": "Staff Writer",
+        "job_id": 4
       },
       {
         "extra": "Recruitment Chair\nElected by peers to serve on Kappa's executive council as a recruitment chair for fall and winter recruitment processes. Planning events, leading meaningful discussions, and organizing the chapter's objectives and values in order to recruit a talented and kind new class of individuals.\n",
         "company_name": "Kappa Kappa Gamma",
         "dates": "Mar 2019 – Present",
         "duration": "8 mos",
-        "title": "Recruitment Chair"
+        "title": "Recruitment Chair",
+        "job_id": 5
       },
       {
         "extra": "Computer Science Peer Tutor\nCause\nEducation\nTutored fellow students in CS01: Introduction to Programming and Computing and CS50: Software Design and Implementation\n",
         "company_name": "Dartmouth College",
         "dates": "Jan 2017 – Present",
         "duration": "2 yrs 10 mos",
-        "title": "Computer Science Peer Tutor"
+        "title": "Computer Science Peer Tutor",
+        "job_id": 6
       }
     ]
   },
@@ -1324,6 +1438,7 @@
     "favoriteArtist": "Wizkid",
     "favoriteColor": "Red",
     "phoneType": "Android",
+    "id": 22,
     "jobs": [
       {
         "extra": "Software Developer\n- Collaborated with Dartmouth Computing to build a web app that will make new student\non-boarding easier and more intuitive\n- Collaborated with Dartmouth Outing Club to build a web app that will streamline outing trip sign\nup and preparation process.\n",
@@ -1331,7 +1446,8 @@
         "dates": "Nov 2018 – Present",
         "duration": "1 yr",
         "location": "Hanover, New Hampshire",
-        "title": "Software Developer"
+        "title": "Software Developer",
+        "job_id": 0
       }
     ]
   },
@@ -1359,6 +1475,7 @@
     "favoriteArtist": "Sia",
     "favoriteColor": "Green",
     "phoneType": "iOS",
+    "id": 23,
     "jobs": [
       {
         "extra": "Developer\n",
@@ -1366,7 +1483,8 @@
         "dates": "Jan 2019 – Present",
         "duration": "10 mos",
         "location": "Hanover, New Hampshire",
-        "title": "Developer"
+        "title": "Developer",
+        "job_id": 0
       },
       {
         "extra": "Game Design Intern\n",
@@ -1374,7 +1492,8 @@
         "dates": "Jun 2019 – Jul 2019",
         "duration": "2 mos",
         "location": "Shanghai City, China",
-        "title": "Game Design Intern"
+        "title": "Game Design Intern",
+        "job_id": 1
       }
     ]
   },
@@ -1402,6 +1521,7 @@
     "favoriteArtist": "Muse",
     "favoriteColor": "Blue",
     "phoneType": "iOS",
+    "id": 24,
     "jobs": [
       {
         "extra": "Designer\nA UI/UX designer for web and mobile platforms. A Core member – the student leadership team\n– and a design mentor. Neukom Scholar.\n",
@@ -1409,7 +1529,8 @@
         "dates": "Jan 2018 – Present",
         "duration": "1 yr 10 mos",
         "location": "Hanover, New Hampshire",
-        "title": "Designer"
+        "title": "Designer",
+        "job_id": 0
       },
       {
         "extra": "Associate Director for First-Year Trips\nOrganising and running the largest college outdoor orientation program in America, Dartmouth's\nthree week long outdoors pre-orientation for over 1000 incoming first-years. Managing a group of\n20 Directorate members who oversee every aspect of Trips, including sustainability, over 300 Trip\nleader and support crew members, outreach, and risk management.\n",
@@ -1417,7 +1538,8 @@
         "dates": "Dec 2018 – Sep 2019",
         "duration": "10 mos",
         "location": "Hanover, New Hampshire",
-        "title": "Associate Director for First-Year Trips"
+        "title": "Associate Director for First-Year Trips",
+        "job_id": 1
       },
       {
         "extra": "Design Intern\nAccessible, inclusive, and universal design intern. Lead designer in redesigning the IHCD website,\nhumancentereddesign.org. Part of the Digital Users/Experts Lab, in which we interviewed experts\nand consults clients in accessible web design, and site survey teams, in which members investigate\nspaces for accessibility. Was trained in the 2010 ADA Standards for Accessible Design.\n",
@@ -1425,7 +1547,8 @@
         "dates": "Jun 2018 – Aug 2018",
         "duration": "3 mos",
         "location": "Greater Boston Area",
-        "title": "Design Intern"
+        "title": "Design Intern",
+        "job_id": 2
       },
       {
         "extra": "Teaching Assistant\nTA for ENGS12: Design Thinking at Dartmouth College; taught classes on Photoshop and advised\nprojects during TA office hours.\n",
@@ -1433,7 +1556,8 @@
         "dates": "Jan 2018 – Jun 2018",
         "duration": "6 mos",
         "location": "Hanover, New Hampshire",
-        "title": "Teaching Assistant"
+        "title": "Teaching Assistant",
+        "job_id": 3
       },
       {
         "extra": "Writing Tutor and Writing Assistant\nWriting assistant for Earth Sciences 7: Life on Mars, critiqued essay drafts for a class of 16 first-year\nstudents. Previous writing assistant for Engineering Sciences 7. Part of the Education & Outreach\ncommittee, through which I gave lectures on thesis writing and other skills in to freshmen writing\nseminars. Also part of the Public Relations committee, through which I introduced fresh\nShow 5 more experiences\nVolunteer Experience\n",
@@ -1441,21 +1565,24 @@
         "dates": "Mar 2016 – Apr 2018",
         "duration": "2 yrs 2 mos",
         "location": "Dartmouth Institute for Writing and Rhetoric",
-        "title": "Writing Tutor and Writing Assistant"
+        "title": "Writing Tutor and Writing Assistant",
+        "job_id": 4
       },
       {
         "extra": "Receptionist\nAnswered customer service calls, fostered a friendly and inviting environment, resolved customer issues and concerns, cleaned and organized course materials, and directed customers to appropriate resources.\n",
         "company_name": "American Red Cross",
         "dates": "Sep 2011 – Sep 2013",
         "duration": "2 yrs 1 mo",
-        "title": "Receptionist"
+        "title": "Receptionist",
+        "job_id": 5
       },
       {
         "extra": "Volunteer Courier\nAnswered customer calls and directed them to the correct departments and delivered materials throughout the hospital in a timely manner.\n",
         "company_name": "Morristown Memorial Hospital",
         "dates": "Sep 2013 – Feb 2014",
         "duration": "6 mos",
-        "title": "Volunteer Courier"
+        "title": "Volunteer Courier",
+        "job_id": 6
       }
     ]
   },
@@ -1483,6 +1610,7 @@
     "favoriteArtist": "Rihanna",
     "favoriteColor": "Lavendar",
     "phoneType": "iOS",
+    "id": 25,
     "jobs": [
       {
         "extra": "",
@@ -1490,7 +1618,8 @@
         "duration": "8 mos",
         "title": "Product Manager",
         "dates": "Mar 2019 – Present",
-        "location": "Dartmouth College"
+        "location": "Dartmouth College",
+        "job_id": 0
       },
       {
         "extra": "Research And Development Assistant\n",
@@ -1498,7 +1627,8 @@
         "dates": "Jan 2017 – Mar 2017",
         "duration": "3 mos",
         "location": "Dartmouth College",
-        "title": "Software Developer"
+        "title": "Software Developer",
+        "job_id": 1
       },
       {
         "extra": "Volunteer Teacher\n",
@@ -1506,7 +1636,8 @@
         "dates": "Jan 2017 – Jun 2017",
         "duration": "6 mos",
         "location": "Mid-Vermont Christian School",
-        "title": "Volunteer Teacher"
+        "title": "Volunteer Teacher",
+        "job_id": 2
       },
       {
         "extra": "iOS Development Intern\nShow 3 more experiences\nVolunteer Experience\n",
@@ -1514,7 +1645,8 @@
         "dates": "Sep 2016 – Dec 2016",
         "duration": "4 mos",
         "location": "San Francisco Bay Area",
-        "title": "iOS Development Intern"
+        "title": "iOS Development Intern",
+        "job_id": 3
       }
     ]
   },
@@ -1542,6 +1674,7 @@
     "favoriteArtist": "Ed Sheeran",
     "favoriteColor": "Blue",
     "phoneType": "iOS",
+    "id": 26,
     "jobs": [
       {
         "extra": "Software Engineer\nThe DALI Lab is an experiential learning center supported by the Computer Science Department\nand the Magnuson Center for Entrepreneurship. Teams consisting of software developers, designers\nand project managers work together to create products for DALI's clients.\n",
@@ -1549,7 +1682,8 @@
         "dates": "Jan 2019 – Present",
         "duration": "10 mos",
         "location": "Hanover, New Hampshire",
-        "title": "Software Engineer"
+        "title": "Software Engineer",
+        "job_id": 0
       },
       {
         "extra": "Responsible for facilitating the transition of 25 freshman residents to college life. Organize events\nand lead floor meetings to promote health, wellness, and safety in the residential community.\nTeaching Assistant for Professor Thomas Cormen's (author of CLRS) introductory computer science\nclass. Encouraged students with no programming experience to pursue Computer Science by\nholding weekly office hours, grading coding assignments and exams.\n",
@@ -1557,7 +1691,8 @@
         "duration": "3 mos",
         "title": "Teaching Assistant, CS 1",
         "dates": "Sep 2018 – Nov 2018",
-        "location": "Hanover, New Hampshire"
+        "location": "Hanover, New Hampshire",
+        "job_id": 1
       },
       {
         "extra": "Software Engineering Intern\nBuilt an iOS food reservation app from the ground-up with a co-developer for a food-tech start-up\nthat sells healthy food via vending machines.\n",
@@ -1565,7 +1700,8 @@
         "dates": "Mar 2019 – Aug 2019",
         "duration": "6 mos",
         "location": "Hanover, New Hampshire",
-        "title": "Software Engineering Intern"
+        "title": "Software Engineering Intern",
+        "job_id": 2
       }
     ]
   },
@@ -1593,6 +1729,7 @@
     "favoriteArtist": "Beatles",
     "favoriteColor": "Pink",
     "phoneType": "iOS",
+    "id": 27,
     "jobs": [
       {
         "extra": "Software Engineer Intern\n",
@@ -1600,14 +1737,16 @@
         "dates": "Jun 2019 – Present",
         "duration": "5 mos",
         "location": "Washington D.C. Metro Area",
-        "title": "Software Engineer Intern"
+        "title": "Software Engineer Intern",
+        "job_id": 0
       },
       {
         "extra": "UX/UI Designer\n Collaborated with developers, designers, and project managers to build web applications for\npartner projects\n Designed a web-based data dashboard for TeachDelta, a company using voice analysis to help\nteachers address implicit bias in the classroom\n",
         "company_name": "DALI Lab",
         "dates": "Jan 2019 – Jun 2019",
         "duration": "6 mos",
-        "title": "UX/UI Designer"
+        "title": "UX/UI Designer",
+        "job_id": 1
       },
       {
         "extra": "Promotional Chair\n Designed digital graphics for dance ensemble’s social media accounts using Adobe Illustrator\n Created a brand guide with new logos, fonts, and color palettes to give Sugarplum a recognizable,\ncohesive look\n Maintained the group’s active online presence through regular posts and follower engagement\n",
@@ -1615,14 +1754,16 @@
         "dates": "Mar 2017 – Jun 2019",
         "duration": "2 yrs 4 mos",
         "location": "Hanover, NH",
-        "title": "Promotional Chair"
+        "title": "Promotional Chair",
+        "job_id": 2
       },
       {
         "extra": "Research Assistant - App Development\n Developed a social rating app using the Ionic development framework for use in the lab’s social\nexperiments\n Implemented a Firebase backend system to manage the app’s authentication and data storage\nfunctionalities\n",
         "company_name": "Computational Social Affective Neuroscience Laboratory",
         "dates": "Jan 2019 – Mar 2019",
         "duration": "3 mos",
-        "title": "Research Assistant - App Development"
+        "title": "Research Assistant - App Development",
+        "job_id": 3
       },
       {
         "extra": "Teaching Assistant\nSoftware Design and Implementation (CS50):\n Guided multiple students per term to successful completion of a C-based software development\ncourse\n Facilitated learning sessions on concepts related to software design, implementation, a\nVolunteer Experience\n",
@@ -1630,7 +1771,8 @@
         "dates": "Jun 2018 – Mar 2019",
         "duration": "10 mos",
         "location": "Hanover, NH",
-        "title": "Teaching Assistant"
+        "title": "Teaching Assistant",
+        "job_id": 4
       }
     ]
   },
@@ -1658,6 +1800,7 @@
     "favoriteArtist": "",
     "favoriteColor": "Green",
     "phoneType": "iOS",
+    "id": 28,
     "jobs": [
       {
         "extra": "Summer Associate Software Engineer\n\tCollaborated in a team of five under the open source team of the startup which completed Series\nD funding round, participating in 2-week sprints, daily stand-ups, and monthly company-wide\ndemo-days under an Agile-Scrum environment\n\tDeveloped a GitHub Marketplace App written in Python that provides real-time detection and\nnotification of vulnerable dependencies (CVE's) in open source repositories\n\tIntegrated internal security intelligence platform and GitHub using Python, GraphQL, Webhooks,\nand AWS Lambdas\n\tExpanded the product feature to support repositories using RubyGems as the package\n",
@@ -1665,7 +1808,8 @@
         "dates": "Jun 2019 – Aug 2019",
         "duration": "3 mos",
         "location": "Baltimore, Maryland Area",
-        "title": "Summer Associate Software Engineer"
+        "title": "Summer Associate Software Engineer",
+        "job_id": 0
       },
       {
         "extra": "Student Developer\n\tImplemented time-based games in React.js for a client project aimed at developing learning tools\nfor linear algebra concepts\n\tCreated an audio analyzer in Python that utilized Azure Speaker Recognition API to extract\nstudent participation patterns, working in a team assigned to a client project developing\n",
@@ -1673,7 +1817,8 @@
         "dates": "Jan 2019 – Jun 2019",
         "duration": "6 mos",
         "location": "Hanover, NH",
-        "title": "Student Developer"
+        "title": "Student Developer",
+        "job_id": 1
       },
       {
         "extra": "Frontend Developer Intern\n Implemented the program administrator’s page with React.js, which included a user search\nmodule, a modal to add courses, and a dynamic notification generator\n Worked in with two full-time engineers to build RESTful API endpoints to query user, course, and\nprogram databases\n",
@@ -1681,7 +1826,8 @@
         "dates": "Jun 2018 – Aug 2018",
         "duration": "3 mos",
         "location": "Seoul, Korea",
-        "title": "Frontend Developer Intern"
+        "title": "Frontend Developer Intern",
+        "job_id": 2
       },
       {
         "extra": "Software Engineer Intern\n\tAugmented the platform team’s CSV generator with an asynchronous notification system\n\tOptimized user search queries in Ruby, improving application’s memory usage by 10x\n\tScripted Ansible roles which automated the on-boarding process for new developers to setup the\nmain application\n",
@@ -1689,7 +1835,8 @@
         "dates": "Jun 2017 – Aug 2017",
         "duration": "3 mos",
         "location": "Hanover, NH",
-        "title": "Software Engineer Intern"
+        "title": "Software Engineer Intern",
+        "job_id": 3
       }
     ]
   },
@@ -1717,6 +1864,7 @@
     "favoriteArtist": "vampire weekend!",
     "favoriteColor": "Yellow",
     "phoneType": "iOS",
+    "id": 29,
     "jobs": [
       {
         "extra": "Software Engineer\nDALI is a student run experiential learning lab at Dartmouth.\nDevelop full stack websites for start ups and researchers. Have experience with building frontends\nwith modern frameworks such as React.js and backends with Node.js/Express.js. Have experience\nbuilding RESTful APIs.\nRecent projects include:\nBioentrepreneur Accelerator Hub--This Accelerator Hub is a NIH-funded collaboration between top\nbiomedical institutions across the United States that provides resources for independent\n",
@@ -1724,7 +1872,8 @@
         "dates": "Jan 2019 – Present",
         "duration": "10 mos",
         "location": "Hanover, NH",
-        "title": "Software Engineer"
+        "title": "Software Engineer",
+        "job_id": 0
       },
       {
         "extra": "Computer Science Teaching Assistant\nMentored students in the Object Oriented Programming course. Held weekly recitation sections to\nhelp enforce the concepts learned in lectures. Graded all assignments, labs, and tests. Held office\nhours to collaborate with students to help them develop a deeper understanding of the nuances of\nthe topics.\n",
@@ -1732,7 +1881,8 @@
         "dates": "Sep 2018 – Nov 2018",
         "duration": "3 mos",
         "location": "Hanover, NH",
-        "title": "Computer Science Teaching Assistant"
+        "title": "Computer Science Teaching Assistant",
+        "job_id": 1
       },
       {
         "extra": "Camp Counselor\nResponsible for a cabin of 8 13-year-old girls for the 8-week season. Planned, supervised, and\nexecuted daily activities, meals, and special events. Selected to lead a week-long advanced water ski\nskills camp.  Lead week long canoeing and hiking trips in the back country. Certified in CPR, life\nguarding, and ski instruction.\n",
@@ -1740,7 +1890,8 @@
         "dates": "Jun 2017 – Aug 2018",
         "duration": "1 yr 3 mos",
         "location": "Eagle River, WI",
-        "title": "Camp Counselor"
+        "title": "Camp Counselor",
+        "job_id": 2
       },
       {
         "extra": "Computer Help Desk Technician\nAnswered computing questions for the students and faculty at Thayer School of Engineering.\nWorked with clients to solve hardware difficulties. Implemented an organizational system across the\ncomputing services at the school.\nVolunteer Experience\n",
@@ -1748,7 +1899,8 @@
         "dates": "Jan 2018 – Jun 2018",
         "duration": "6 mos",
         "location": "Hanover, NH",
-        "title": "Computer Help Desk Technician"
+        "title": "Computer Help Desk Technician",
+        "job_id": 3
       }
     ]
   },
@@ -1776,6 +1928,7 @@
     "favoriteArtist": "Michael Bubl_",
     "favoriteColor": "Blue",
     "phoneType": "iOS",
+    "id": 30,
     "jobs": [
       {
         "extra": "UX Research & Design Intern\n  Performed competitive analysis for e-Commerce product pages and checkout flows to determine\nredesign objectives\n  Created wireframes and low- and high-fidelity prototypes for product detail page redesign\nproject\n  Conducted user testing for several prototypes, synthesizing insights and recommendations to\ndrive further iterations\n  Presented team findings and recommendations to senior-level executives to drive visibility and\nproject support\n",
@@ -1783,7 +1936,8 @@
         "dates": "May 2019 – Present",
         "duration": "6 mos",
         "location": "Mooresville, NC",
-        "title": "UX Research & Design Intern"
+        "title": "UX Research & Design Intern",
+        "job_id": 0
       },
       {
         "extra": "Project Manager\n Selected to coordinate project start, progress, and delivery of mobile app for Boston startup 6AM\nHealth in 10 weeks\n Led team-client meetings, ensuring clear communication to align on priorities and inform on\nprogress and next steps\n",
@@ -1791,7 +1945,8 @@
         "dates": "Mar 2019 – Jun 2019",
         "duration": "4 mos",
         "location": "Hanover, NH",
-        "title": "Project Manager"
+        "title": "Project Manager",
+        "job_id": 1
       },
       {
         "extra": "  Led and managed team of 30 peers to produce a printed biannual journal distributed across 29\nuniversity campuses\n  Performed in-depth developmental editing for 5 articles and meticulous copyediting for 18\narticles\n  Wrote three articles concerning the philosophy of Christianity, one of which was selected as the\ncover feature and later won the national award for Best Article of the Year from the Augustine\nCollective\n  Performed developmental editing for 3 articles and copyediting for 9 articles\n",
@@ -1799,7 +1954,8 @@
         "duration": "1 yr 8 mos",
         "title": "Staff Writer",
         "dates": "Oct 2016 – May 2018",
-        "location": "Hanover, NH"
+        "location": "Hanover, NH",
+        "job_id": 2
       },
       {
         "extra": "Writing Center Tutor\n  Coached fellow students to develop more effective strategies for engaging in the research and\nwriting processes\n  Reframed writing concepts to accommodate students’ personal learning style\n  Conducted research to support redesign of client and tutor feedback forms to improv\n",
@@ -1807,7 +1963,8 @@
         "dates": "Sep 2017 – May 2019",
         "duration": "1 yr 9 mos",
         "location": "Hanover, New Hampshire",
-        "title": "Writing Center Tutor"
+        "title": "Writing Center Tutor",
+        "job_id": 3
       }
     ]
   },
@@ -1835,6 +1992,7 @@
     "favoriteArtist": "Beach House",
     "favoriteColor": "Green",
     "phoneType": "iOS",
+    "id": 31,
     "jobs": []
   },
   {
@@ -1861,6 +2019,7 @@
     "favoriteArtist": "Glitch Mob",
     "favoriteColor": "Navy Blue",
     "phoneType": "Android",
+    "id": 32,
     "jobs": [
       {
         "extra": "Software Development Engineer\n",
@@ -1868,7 +2027,8 @@
         "dates": "Sep 2019 – Present",
         "duration": "2 mos",
         "location": "Greater Seattle Area",
-        "title": "Software Development Engineer"
+        "title": "Software Development Engineer",
+        "job_id": 0
       },
       {
         "extra": "Software Engineer\nArchitected 3 cross-compatible mobile games to simplify studying for Tuck Business School's\nGlobal Economics for Management class. Used by about 100 students in the Winter 2019 class.\nDesignated Subject Matter Expert on React Native\nLed workshops, held tutorial hours to improve lab-wide understanding of latest React tr\n",
@@ -1876,7 +2036,8 @@
         "dates": "Sep 2018 – Jun 2019",
         "duration": "10 mos",
         "location": "United States",
-        "title": "Software Engineer"
+        "title": "Software Engineer",
+        "job_id": 1
       },
       {
         "extra": "Tutor\nTutor for Software Design and Implementation class.\n",
@@ -1884,7 +2045,8 @@
         "dates": "Jun 2018 – Mar 2019",
         "duration": "10 mos",
         "location": "Greater Boston Area",
-        "title": "Tutor"
+        "title": "Tutor",
+        "job_id": 2
       }
     ]
   },
@@ -1912,13 +2074,15 @@
     "favoriteArtist": "Charlie Puth",
     "favoriteColor": "Green, Blue",
     "phoneType": "iOS",
+    "id": 33,
     "jobs": [
       {
         "extra": "As a software developer for the Dartmouth Applied Learning & Innovation (DALI) Lab, I collaborate\nwith a PM, two designers and a co-developer to develop full stack websites/apps for startups every\nacademic quarter (a 10-week cycle).\nSpring '19 | Collaborated on a React web-app that divides a class into pedagogically defined\n‘compatible, evenly-matched’ groups based on a survey each student fills out.\nWinter '19 | Worked on an Android mobile app that uses Bluetooth to monitor a patient's\nperformance in their physiotherapy exercises.\n",
         "company_name": "DALI Lab",
         "duration": "3 mos",
         "title": "Monitoring Patient's PT Progress | Android Developer",
-        "dates": "Jan 2019 – Mar 2019"
+        "dates": "Jan 2019 – Mar 2019",
+        "job_id": 0
       },
       {
         "extra": "Engineering Practicum Intern\nRevamped an automated system that runs performance tests resulting in a 74% increase in system\nusage for the Search Backend team. To do this, first created metrics to track usage analytics of the\nsystem. Then, built a user-interface with JavaScript and Polymer.js to allow users to monitor their\nperformance tests. This entailed coding RPCs and protocol buffers in Go to implement a\n",
@@ -1926,14 +2090,16 @@
         "dates": "Jun 2019 – Sep 2019",
         "duration": "4 mos",
         "location": "Sunnyvale",
-        "title": "Engineering Practicum Intern"
+        "title": "Engineering Practicum Intern",
+        "job_id": 1
       },
       {
         "extra": "for Thomas Cormen's CS1 - Intro to Programming & Computing\nWorked on a team trying to build an efficient data structure to allow rapid distance queries for the\nall-pairs motion planning problem. I was tasked with developing and implementing a pathfinding\nalgorithm for a differential drive system.\nShow 1 more role\n",
         "company_name": "Dartmouth College",
         "duration": "4 mos",
         "title": "Prof. Balkcom's Research Intern",
-        "dates": "Apr 2018 – Jul 2018"
+        "dates": "Apr 2018 – Jul 2018",
+        "job_id": 2
       },
       {
         "extra": "Engineering Intern\nPitched a personal project idea and was given a chance to further develop it under CS mentorship\nat Kaer. Ultimately, engineered a prototype of a wearable that automatically adjusts the AC\ntemperature based on one’s comfort.\nVolunteer Experience\n",
@@ -1941,7 +2107,8 @@
         "dates": "Jun 2016 – Aug 2016",
         "duration": "3 mos",
         "location": "Singapore",
-        "title": "Engineering Intern"
+        "title": "Engineering Intern",
+        "job_id": 3
       }
     ]
   },
@@ -1969,6 +2136,7 @@
     "favoriteArtist": "Ariana Grande",
     "favoriteColor": "Blue",
     "phoneType": "Android",
+    "id": 34,
     "jobs": [
       {
         "extra": "Software Engineer\n",
@@ -1976,7 +2144,8 @@
         "dates": "Aug 2019 – Present",
         "duration": "3 mos",
         "location": "New York, New York",
-        "title": "Software Engineer"
+        "title": "Software Engineer",
+        "job_id": 0
       },
       {
         "extra": "Full Stack Web Developer\n- Developed full stack mobile and web applications with student designs and developers\n- Facilitated internal projects and initiatives to create learning material for the Dartmouth campus\n- Organized and lead lecture series to teach Dartmouth students core concepts of software\ndevelopment and digital design\n",
@@ -1984,7 +2153,8 @@
         "dates": "Nov 2015 – Present",
         "duration": "4 yrs",
         "location": "Hanover, New Hampshire",
-        "title": "Full Stack Web Developer"
+        "title": "Full Stack Web Developer",
+        "job_id": 1
       },
       {
         "extra": "Software Engineer Intern\n- Refactored codebase to lead to faster page render times\n- Implemented new designs for sellers platform\n- Learned industry standards of project planning with JIRA and sprint planning\nVolunteer Experience\n",
@@ -1992,7 +2162,8 @@
         "dates": "Jun 2017 – Aug 2018",
         "duration": "1 yr 3 mos",
         "location": "San Jose, CA",
-        "title": "Software Engineer Intern"
+        "title": "Software Engineer Intern",
+        "job_id": 2
       }
     ]
   },
@@ -2020,6 +2191,7 @@
     "favoriteArtist": "Fleetwood Mac",
     "favoriteColor": "Blue",
     "phoneType": "iOS",
+    "id": 35,
     "jobs": [
       {
         "extra": "Software Developer\nThe Digital Arts, Leadership, and Innovation Lab is a project and research lab in the Dartmouth\nComputer Science Department. As a software developer for the Dartmouth DALI Lab, I collaborated\nwith a small team of DALI members and the Tuck School of Business to create a mobile game app\ncalled GEM that teaches economic concepts in an engaging, interactive fashion. The app will be\nused by Tuck first-year students as a supplement to the Global Economics Management course. At\nDALI I have further developed my skill in React Native and Github work flow.\n",
@@ -2027,7 +2199,8 @@
         "dates": "Mar 2018 – Present",
         "duration": "1 yr 8 mos",
         "location": "Hanover, New Hampshire",
-        "title": "Software Developer"
+        "title": "Software Developer",
+        "job_id": 0
       },
       {
         "extra": "The Problem Solving via Object-Oriented Programming course at Dartmouth College marks the\ntransition for many students from introductory CS topics to more intermediate-level studies of\nfoundational algorithms and coding style. As a teaching assistant for this course, I serve as a\nprimary resource for students in facilitating their learning and project-work outside of cl\nI worked one-on-one with students needing help in their computer science classes, helping them\nwith problem sets, studying for exams, and also serving as a resource for information and advice\nabout the computer science major.\nShow 1 more role\n",
@@ -2035,7 +2208,8 @@
         "duration": "3 mos",
         "title": "Computer Science Tutor",
         "dates": "Jan 2017 – Mar 2017",
-        "location": "Hanover, NH"
+        "location": "Hanover, NH",
+        "job_id": 1
       },
       {
         "extra": "Software Engineering Intern\nOn the Office 365 Build and Infrastructure team at Microsoft, I worked on a project to add\ntransparency to the way Office projects undergo functionality testing. Using C# and .NET, I built a\nnew API data layer with certificate authentication, expanded an existing API data layer, as well as\nimplemented UI changes to an Azure DevOps extension used by developers across Offic\n",
@@ -2043,7 +2217,8 @@
         "dates": "Jun 2019 – Aug 2019",
         "duration": "3 mos",
         "location": "Greater Seattle Area",
-        "title": "Software Engineering Intern"
+        "title": "Software Engineering Intern",
+        "job_id": 2
       },
       {
         "extra": "Game Development Intern\nThe Climate Institute, an organization dedicated to finding climate solutions through advancement\nof research and collaboration with U.S. and international partners. As a game development intern, I\nwas designing and building a game about climate change with the purpose of raising awareness\nand educating the public. The development tools I used were Unity and Aseprite.\n",
@@ -2051,21 +2226,24 @@
         "dates": "Jan 2019 – Mar 2019",
         "duration": "3 mos",
         "location": "Washington D.C.",
-        "title": "Game Development Intern"
+        "title": "Game Development Intern",
+        "job_id": 3
       },
       {
         "extra": "Software Development Internship\nAs an intern at Seabird Apps, my job was to learn and familiarize with the platforms used to code\nthe Dartmouth Student App, React Native, JS, and Firebase. After a short training period of learning\nhow to use these platforms, I helped rigorously test the app for bugs, pushed fixes to the code\nbase, and extended features such as customizing the home page icons.\nShow 1 more experience\nVolunteer Experience\n",
         "company_name": "Seabird Apps",
         "dates": "Apr 2017 – Mar 2018",
         "duration": "1 yr",
-        "title": "Software Development Internship"
+        "title": "Software Development Internship",
+        "job_id": 4
       },
       {
         "extra": "Parade and Festivals Volunteer\nCause\nArts and Culture\nI represented the Chinese community in Indianapolis by walking in the Fourth of July, Thanksgiving, and the Indy 500 parades each year throughout high school. Wearing traditional Chinese clothing, walking in the parades fostered a sense of community amongst the second-generation Chinese children and strengthened cultural awareness in the community. I also volunteered at the annual Chinese New Year festival, a celebration of Chinese culture.\n",
         "company_name": "INDIANAPOLIS CHINESE COMMUNITY CENTER INC",
         "dates": "Aug 2012 – Aug 2016",
         "duration": "4 yrs 1 mo",
-        "title": "Parade and Festivals Volunteer"
+        "title": "Parade and Festivals Volunteer",
+        "job_id": 5
       }
     ]
   },
@@ -2093,6 +2271,7 @@
     "favoriteArtist": "Coldplay",
     "favoriteColor": "Green",
     "phoneType": "iOS",
+    "id": 36,
     "jobs": [
       {
         "extra": "UX Research Co op\n",
@@ -2100,7 +2279,8 @@
         "dates": "Aug 2019 – Present",
         "duration": "3 mos",
         "location": "Greater Boston Area",
-        "title": "UX Research Co op"
+        "title": "UX Research Co op",
+        "job_id": 0
       },
       {
         "extra": "Project Manager\n",
@@ -2108,7 +2288,8 @@
         "dates": "Dec 2018 – Present",
         "duration": "11 mos",
         "location": "Hanover, NH",
-        "title": "Project Manager"
+        "title": "Project Manager",
+        "job_id": 1
       },
       {
         "extra": "Teaching Assistant - Design Thinking (ENGS 12)\n",
@@ -2116,7 +2297,8 @@
         "dates": "Sep 2018 – Present",
         "duration": "1 yr 2 mos",
         "location": "Hanover, NH",
-        "title": "Teaching Assistant - Design Thinking (ENGS 12)"
+        "title": "Teaching Assistant - Design Thinking (ENGS 12)",
+        "job_id": 2
       },
       {
         "extra": "Student Athlete: Track & Field, Cross Country\n",
@@ -2124,7 +2306,8 @@
         "dates": "Sep 2015 – Present",
         "duration": "4 yrs 2 mos",
         "location": "Hanover, New Hampshire",
-        "title": "Student Athlete: Track & Field, Cross Country"
+        "title": "Student Athlete: Track & Field, Cross Country",
+        "job_id": 3
       }
     ]
   },
@@ -2152,13 +2335,15 @@
     "favoriteArtist": "Ariana Grande",
     "favoriteColor": "Pink, Silver, Black",
     "phoneType": "iOS",
+    "id": 37,
     "jobs": [
       {
         "extra": "Undergraduate Researcher\n Worked with professor Mark Williams in creating a Multi-Lingual Film Dictionary for the Media\nEcology Project (MEP), concentrating on researching English-Korean film terms.\n Contributed to enabling the preservation of endangered moving image history and its cultural\nexchange, and the study of moving images from international perspectives\n",
         "company_name": "Dartmouth Film/Media MEP",
         "dates": "Sep 2019 – Present",
         "duration": "2 mos",
-        "title": "Undergraduate Researcher"
+        "title": "Undergraduate Researcher",
+        "job_id": 0
       },
       {
         "extra": "Video Production Fellow\n Worked with a group of fellows in different departments to plan various events and contribute to\nthe arts administration at the Hopkins Center for the Arts\n  Produced videos that worked to share stories about the arts and student engagement as a fellow\nin the video production department\n",
@@ -2166,21 +2351,24 @@
         "dates": "Sep 2019 – Present",
         "duration": "2 mos",
         "location": "Hanover, New Hampshire",
-        "title": "Video Production Fellow"
+        "title": "Video Production Fellow",
+        "job_id": 1
       },
       {
         "extra": "Videographer\n\tProduced videos with the DALI video crew, collaborating with partners to produce short films and\nvideos to meet their needs including advertising/marketing, storytelling, and educating\n\tWorked with the crew on all aspects of production including development, storyboarding,\nscriptwriting, shooting, and post production\n",
         "company_name": "DALI Lab",
         "dates": "Mar 2019 – Present",
         "duration": "8 mos",
-        "title": "Videographer"
+        "title": "Videographer",
+        "job_id": 2
       },
       {
         "extra": "Production Assistant\n\tProduced videos for organizations on campus, producing short documentary videos promoting\nexperiential learning on campus\n\tSet up lighting and sets for shoots and interviews, monitored mics and audio levels, planned\naspects of production coordinating with others and relevant Dartmouth organizations\n",
         "company_name": "Dartmouth Media Production Group",
         "dates": "Sep 2018 – Jun 2019",
         "duration": "10 mos",
-        "title": "Production Assistant"
+        "title": "Production Assistant",
+        "job_id": 3
       },
       {
         "extra": "Secretary\n\tCommunicated and coordinated with student groups and recruiting companies for events\n\tManaged communication within KSA and with various campus groups to promote Korean culture,\ncommunity and positivity\nShow 5 more experiences\nVolunteer Experience\n",
@@ -2188,21 +2376,24 @@
         "dates": "Mar 2018 – Mar 2019",
         "duration": "1 yr 1 mo",
         "location": "Dartmouth",
-        "title": "Secretary"
+        "title": "Secretary",
+        "job_id": 4
       },
       {
         "extra": "Translator\nCause\nEducation\nTranslated Khan Academy Videos, added Japanese/Korean Subtitles, Translated Korean children's books and donated to other countries\n",
         "company_name": "Next Youth Global Leaders",
         "dates": "Mar 2014 – Jun 2015",
         "duration": "1 yr 4 mos",
-        "title": "Translator"
+        "title": "Translator",
+        "job_id": 5
       },
       {
         "extra": "English Teacher\nCause\nEducation\nTaught English to low income students\n",
         "company_name": "StepUp",
         "dates": "Jan 2014 – Aug 2015",
         "duration": "1 yr 8 mos",
-        "title": "English Teacher"
+        "title": "English Teacher",
+        "job_id": 6
       }
     ]
   },
@@ -2230,6 +2421,7 @@
     "favoriteArtist": "Justice Beaver",
     "favoriteColor": "Blue",
     "phoneType": "iOS",
+    "id": 38,
     "jobs": [
       {
         "extra": "Computer Science Tutor\n Provide academic guidance to students learning Python in COSC 1 (Introduction to Programming\n& Computation)\n Assist students with assignments, labs, and exam preparation\n",
@@ -2237,7 +2429,8 @@
         "dates": "Jan 2019 – Present",
         "duration": "10 mos",
         "location": "Hanover, NH",
-        "title": "Computer Science Tutor"
+        "title": "Computer Science Tutor",
+        "job_id": 0
       },
       {
         "extra": " Planned and scheduled all games and tournaments\n Managed general logistics and coordinated among the coach, team, and club sports office\nShow 2 more roles\n",
@@ -2245,7 +2438,8 @@
         "duration": "1 yr",
         "title": "President",
         "dates": "Jun 2018 – May 2019",
-        "location": "Hanover, NH"
+        "location": "Hanover, NH",
+        "job_id": 1
       },
       {
         "extra": "Program Management Intern\n Collected and analyzed data from the financial ledger, identified $2.2M cost-saving opportunities\nin manufacturing scrap reduction, and helped engage suppliers to improve the quality of parts and\nreduce scrap cost\n Served as the lead Program Manager in a cross-functional team for the replacement of\n",
@@ -2253,7 +2447,8 @@
         "dates": "Jun 2019 – Aug 2019",
         "duration": "3 mos",
         "location": "Everett, WA",
-        "title": "Program Management Intern"
+        "title": "Program Management Intern",
+        "job_id": 2
       },
       {
         "extra": "Project Manager\n Managed a team of designers and developers to build a set of online linear algebra games for a\nclient\n Defined and organized the project by communicating clearly with the client and bridging the gap\nbetween the designers and developers\n",
@@ -2261,7 +2456,8 @@
         "dates": "Mar 2019 – Jun 2019",
         "duration": "4 mos",
         "location": "Hanover, NH",
-        "title": "Project Manager"
+        "title": "Project Manager",
+        "job_id": 3
       }
     ]
   },
@@ -2289,6 +2485,7 @@
     "favoriteArtist": "Kygo",
     "favoriteColor": "Azure",
     "phoneType": "iOS",
+    "id": 39,
     "jobs": [
       {
         "extra": "Sourcing and evaluating university startups for seed investments.\nCo-led seed investments into emerging cyber security areas.\n",
@@ -2296,7 +2493,8 @@
         "duration": "5 mos",
         "title": "Venture Intern",
         "dates": "Jun 2019 – Present",
-        "location": "Sunnyvale, California"
+        "location": "Sunnyvale, California",
+        "job_id": 0
       },
       {
         "extra": "Full-stack web development.\nThe DALI Lab @ Dartmouth College is a software design and development lab. We build digital\nproducts - websites, apps, backend systems, VR worlds - for our client companies. As a product\nmanager, I propose and take ownership of my product idea, and guide it through its entire\ndevelopment cycle, starting from initial conceptualization to user testing and eventual deployment.\n",
@@ -2304,14 +2502,16 @@
         "duration": "10 mos",
         "title": "Product Manager (Partner)",
         "dates": "Jan 2019 – Present",
-        "location": "New Hampshire"
+        "location": "New Hampshire",
+        "job_id": 1
       },
       {
         "extra": "Co-Founder\nD-Planner is a software that aims to help college students in academic planning.\n",
         "company_name": "D-Planner",
         "dates": "Sep 2018 – Present",
         "duration": "1 yr 2 mos",
-        "title": "Co-Founder"
+        "title": "Co-Founder",
+        "job_id": 2
       },
       {
         "extra": "Market Research Analyst\nI conducted industry analysis to deliver insights in formulating market-entry strategy for Echo\nRidge, a technology startup that seeks to revolutionize lobbying with a crowdfunded platform.\nSince the market-entry strategy was heavily based on location, I used MS Power BI to splice data\nbased on geography delivered findings in powerful data geo-visualizations.\n",
@@ -2319,7 +2519,8 @@
         "dates": "Sep 2018 – Jan 2019",
         "duration": "5 mos",
         "location": "Massachusetts",
-        "title": "Market Research Analyst"
+        "title": "Market Research Analyst",
+        "job_id": 3
       }
     ]
   },
@@ -2347,6 +2548,7 @@
     "favoriteArtist": "Lil Xan",
     "favoriteColor": "Black",
     "phoneType": "iOS",
+    "id": 40,
     "jobs": [
       {
         "extra": "",
@@ -2354,7 +2556,8 @@
         "duration": "1 yr 10 mos",
         "title": "Software Engineer",
         "dates": "Jan 2018 – Present",
-        "location": "Greater Boston Area"
+        "location": "Greater Boston Area",
+        "job_id": 0
       }
     ]
   },
@@ -2382,6 +2585,7 @@
     "favoriteArtist": "Courtney Barnett",
     "favoriteColor": "Blue",
     "phoneType": "iOS",
+    "id": 41,
     "jobs": [
       {
         "extra": "Designer\nMember of a team that partners with various organizations and entrepreneurs to develop\nreal-world design/communication projects from conception to finished product\n",
@@ -2389,14 +2593,16 @@
         "dates": "Mar 2019 – Present",
         "duration": "8 mos",
         "location": "Hanover, New Hampshire",
-        "title": "Designer"
+        "title": "Designer",
+        "job_id": 0
       },
       {
         "extra": "Research Assistant\nMember of the Guerinot Lab studying iron uptake in plants\n",
         "company_name": "Dartmouth College",
         "dates": "Sep 2017 – Jun 2019",
         "duration": "1 yr 10 mos",
-        "title": "Research Assistant"
+        "title": "Research Assistant",
+        "job_id": 1
       },
       {
         "extra": "Intern\nResponsibilities include assisting with case research and carrying out marketing-related tasks\n(redesigning website, researching competition, enhancing overall online/social media presence)\n",
@@ -2404,7 +2610,8 @@
         "dates": "Sep 2018 – Dec 2018",
         "duration": "4 mos",
         "location": "Boston",
-        "title": "Intern"
+        "title": "Intern",
+        "job_id": 2
       },
       {
         "extra": "Rental Desk Worker\nHelp customers rent and operate canoes and kayaks, responsible for data entry and money\ncollection\n",
@@ -2412,7 +2619,8 @@
         "dates": "Sep 2017 – Sep 2018",
         "duration": "1 yr 1 mo",
         "location": "Hanover, New Hampshire",
-        "title": "Rental Desk Worker"
+        "title": "Rental Desk Worker",
+        "job_id": 3
       },
       {
         "extra": "Lifeguard\nShow 1 more experience\nVolunteer Experience\n",
@@ -2420,21 +2628,24 @@
         "dates": "Jun 2015 – Sep 2016",
         "duration": "1 yr 4 mos",
         "location": "Weston, Massachusetts",
-        "title": "Lifeguard"
+        "title": "Lifeguard",
+        "job_id": 4
       },
       {
         "extra": "Volunteer\n",
         "company_name": "BINA Farm Center",
         "dates": "Jan 2014 – Sep 2017",
         "duration": "3 yrs 9 mos",
-        "title": "Volunteer"
+        "title": "Volunteer",
+        "job_id": 5
       },
       {
         "extra": "Member\nHigh school committee supporting girls education in developing nations.\n",
         "company_name": "Girls for Girls Club",
         "dates": "Sep 2015 – Jun 2016",
         "duration": "10 mos",
-        "title": "Member"
+        "title": "Member",
+        "job_id": 6
       }
     ]
   },
@@ -2462,6 +2673,7 @@
     "favoriteArtist": "Too many, but I've really been enjoying Maggie Rogers lately.",
     "favoriteColor": "Purple",
     "phoneType": "iOS",
+    "id": 42,
     "jobs": [
       {
         "extra": "Digital Designer\n",
@@ -2469,7 +2681,8 @@
         "dates": "Mar 2019 – Present",
         "duration": "8 mos",
         "location": "Greater Boston Area",
-        "title": "Digital Designer"
+        "title": "Digital Designer",
+        "job_id": 0
       },
       {
         "extra": "Product Management Intern\n",
@@ -2477,7 +2690,8 @@
         "dates": "Jun 2019 – Aug 2019",
         "duration": "3 mos",
         "location": "Greater Los Angeles Area",
-        "title": "Product Management Intern"
+        "title": "Product Management Intern",
+        "job_id": 1
       },
       {
         "extra": "Junior Research Scholar\n",
@@ -2485,7 +2699,8 @@
         "dates": "Mar 2019 – Aug 2019",
         "duration": "6 mos",
         "location": "Greater Boston Area",
-        "title": "Junior Research Scholar"
+        "title": "Junior Research Scholar",
+        "job_id": 2
       },
       {
         "extra": "Finance and Fund Development Intern\n",
@@ -2493,7 +2708,8 @@
         "dates": "Jun 2017 – Aug 2017",
         "duration": "3 mos",
         "location": "San Francisco Bay Area",
-        "title": "Finance and Fund Development Intern"
+        "title": "Finance and Fund Development Intern",
+        "job_id": 3
       },
       {
         "extra": "Research Intern\nVolunteer Experience\n",
@@ -2501,7 +2717,8 @@
         "dates": "May 2015 – Jan 2016",
         "duration": "9 mos",
         "location": "Greater New York City Area",
-        "title": "Research Intern"
+        "title": "Research Intern",
+        "job_id": 4
       }
     ]
   },
@@ -2529,13 +2746,15 @@
     "favoriteArtist": "Kanye West",
     "favoriteColor": "Blue",
     "phoneType": "iOS",
+    "id": 43,
     "jobs": [
       {
         "extra": "Chief Marketing Officer\n",
         "company_name": "Kül Beds",
         "dates": "Apr 2019 – Present",
         "duration": "7 mos",
-        "title": "Chief Marketing Officer"
+        "title": "Chief Marketing Officer",
+        "job_id": 0
       },
       {
         "extra": "Product Associate\n  Work with engineers & QA to roll out critical and bug fixes, stability initiatives including new tools\nor enhancement, ensuring issues are identified, tracked, reported on and resolved.\n  Utilize SQL and data analytics to find patterns and diagnose and solve system flaws.\n  Identify systemic causes for categories of flaws & implement procedural improvement\n",
@@ -2543,7 +2762,8 @@
         "dates": "Jul 2019 – Present",
         "duration": "4 mos",
         "location": "Greater Boston Area",
-        "title": "Product Associate"
+        "title": "Product Associate",
+        "job_id": 1
       },
       {
         "extra": "Project Manager, UI/UX Designer, Teaching Assistant\n  Delivered nine projects from concept-to launch for clients ranging from local startups to NASA\n(home appraisal app, produced conflict resolution VR content, app to pre-pay doctor visits, etc.)\n  Defined project scope, goals, and deliverables to ensure consistency with client strategy\n  Created user-centered designs for mobile and desktop applications, with careful consi\n",
@@ -2551,7 +2771,8 @@
         "dates": "Jan 2016 – Jun 2019",
         "duration": "3 yrs 6 mos",
         "location": "Hanover, New Hampshire",
-        "title": "Project Manager, UI/UX Designer, Teaching Assistant"
+        "title": "Project Manager, UI/UX Designer, Teaching Assistant",
+        "job_id": 2
       },
       {
         "extra": "Managing Partner\n  Drove product strategy based on company vision, user feedback, and metrics: expanded product\nofferings and repositioned company, resulting in a revenue increase from $15,000 to $51,000\n  Lead company branding and marketing; increased unique visitors by 42.5% during 1st year\n  Manage 200+ client accounts, navigating their individual needs and ensuring timely d\n",
@@ -2559,7 +2780,8 @@
         "dates": "Apr 2016 – Apr 2019",
         "duration": "3 yrs 1 mo",
         "location": "Hanover, New Hampshire",
-        "title": "Managing Partner"
+        "title": "Managing Partner",
+        "job_id": 3
       }
     ]
   },
@@ -2587,6 +2809,7 @@
     "favoriteArtist": "Milky Chance",
     "favoriteColor": "Purple",
     "phoneType": "iOS",
+    "id": 44,
     "jobs": [
       {
         "extra": "Rotational Associate\n",
@@ -2594,7 +2817,8 @@
         "dates": "Sep 2019 – Present",
         "duration": "2 mos",
         "location": "Cambridge, Massachusetts",
-        "title": "Rotational Associate"
+        "title": "Rotational Associate",
+        "job_id": 0
       },
       {
         "extra": "Designer/Developer\n- Rocky Legacy Project (Developer/Designer): Creating a website that best showcases the many\nstories of Dartmouth alums that have served in public office.\n- Blabl (Mentor):  Guiding designers as they build a game using Amazon Alexa for kids who struggle\nwith speech to help them practice and gain confidence. This game will encourage kids t\n",
@@ -2602,7 +2826,8 @@
         "dates": "Sep 2016 – Jun 2019",
         "duration": "2 yrs 10 mos",
         "location": "Dartmouth College",
-        "title": "Designer/Developer"
+        "title": "Designer/Developer",
+        "job_id": 1
       },
       {
         "extra": "Product Management & UX/UI Design Intern\nCRE Simple is a Financial Services company built on an intelligent lending platform that\nrevolutionizes access to capital for commercial real estate deals.\nOur OneSource platform is the first cloud-based collaboration and workflow solution to\n",
@@ -2610,7 +2835,8 @@
         "dates": "Jun 2018 – Sep 2018",
         "duration": "4 mos",
         "location": "San Francisco Bay Area",
-        "title": "Product Management & UX/UI Design Intern"
+        "title": "Product Management & UX/UI Design Intern",
+        "job_id": 2
       },
       {
         "extra": "Marketing, Sales, and Business Development Intern\n- Developed strategy to capitalize on $1MM opportunity to grow sales of NY local merchandise\n- Produced and conducted user survey to identify key consumer pain points\n- Analyzed sales data to track customer journey and patterns\n- Identified competitor assortment of local products by keeping up with trends and lead\n",
@@ -2618,7 +2844,8 @@
         "dates": "Sep 2017 – Dec 2017",
         "duration": "4 mos",
         "location": "Greater New York City Area",
-        "title": "Marketing, Sales, and Business Development Intern"
+        "title": "Marketing, Sales, and Business Development Intern",
+        "job_id": 3
       },
       {
         "extra": "UX Design Intern\nUser-tested a job recruitment start-up's candidate application process and delivered constructive\nfeedback to improve their website's conversion rate. Produced a promotional video for the\ncompany’s Facebook page.\nShow 4 more experiences\nVolunteer Experience\n",
@@ -2626,14 +2853,16 @@
         "dates": "Dec 2016",
         "duration": "1 mo",
         "location": "Greater New York City Area",
-        "title": "UX Design Intern"
+        "title": "UX Design Intern",
+        "job_id": 4
       },
       {
         "extra": "SAT Tutor and Mentor\nCause\nEducation\nYouth and leadership development: At LGR, I designed weekly lesson plans and evaluation methods to support a group of four students in raising their SAT scores. I continue to mentor them throughout the college application process, increasing both confidence in themselves and their future.\n",
         "company_name": "Let's Get Ready",
         "dates": "Oct 2017 – Dec 2017",
         "duration": "3 mos",
-        "title": "SAT Tutor and Mentor"
+        "title": "SAT Tutor and Mentor",
+        "job_id": 5
       }
     ]
   },
@@ -2661,6 +2890,7 @@
     "favoriteArtist": "Tommy Genesis",
     "favoriteColor": "Millenial Pink",
     "phoneType": "iOS",
+    "id": 45,
     "jobs": [
       {
         "extra": "Software Developer\nCreates both the back and front-end of web or mobile applications for paying partners in the Upper\nValley; works with a team consisting of a project manager, designers, and other developers.\nPast projects include: Linear Games, a series of math games designed to help familiarize students\nwith concepts significant to linear algebra\n",
@@ -2668,7 +2898,8 @@
         "dates": "Mar 2019 – Present",
         "duration": "8 mos",
         "location": "Hanover, NH",
-        "title": "Software Developer"
+        "title": "Software Developer",
+        "job_id": 0
       },
       {
         "extra": "Campus Tour Guide\nLeads weekly tours for perspective students and families, telling stories from personal experience to\ngroups of up to 50\nAssists during big admissions events for accepted students’ or alumni, signing in visitors or greeting\nand directing them between activities\n",
@@ -2676,7 +2907,8 @@
         "dates": "Feb 2019 – Present",
         "duration": "9 mos",
         "location": "Hanover, NH",
-        "title": "Campus Tour Guide"
+        "title": "Campus Tour Guide",
+        "job_id": 1
       },
       {
         "extra": "Book Seller\nOffers personalized recommendations and help in finding books within the two-story store\nManages the cashier and information desks with a solid handle of Word Stock and Ibid inventory\ndatabasing\nAids with the facilitation of weeknight author readings and book-club events\n",
@@ -2684,7 +2916,8 @@
         "dates": "Nov 2018 – Present",
         "duration": "1 yr",
         "location": "New York City, New York",
-        "title": "Book Seller"
+        "title": "Book Seller",
+        "job_id": 2
       },
       {
         "extra": "2019 Law & Ethics Fellow\nEngaged in a dialogue surrounding the intersection of law and ethics with other fellows\nMet with distinguished lawyers and authors like Neal Katyal and Margaret Atwood to discuss the\nintent and impact of their work\n",
@@ -2692,7 +2925,8 @@
         "dates": "Feb 2019 – Jun 2019",
         "duration": "5 mos",
         "location": "Hanover, NH",
-        "title": "2019 Law & Ethics Fellow"
+        "title": "2019 Law & Ethics Fellow",
+        "job_id": 3
       }
     ]
   },
@@ -2720,6 +2954,7 @@
     "favoriteArtist": "The Weeknd",
     "favoriteColor": "Red",
     "phoneType": "iOS",
+    "id": 46,
     "jobs": [
       {
         "extra": "Software Engineer Intern\nWorking on the Facebook Stories Core Creation team for iOS\n",
@@ -2727,7 +2962,8 @@
         "dates": "Sep 2019 – Present",
         "duration": "2 mos",
         "location": "Menlo Park, CA",
-        "title": "Software Engineer Intern"
+        "title": "Software Engineer Intern",
+        "job_id": 0
       },
       {
         "extra": " Moving the developers in the DALI Lab forward by encouraging quality work, developing better\nsystems and resources, and providing mentorship to those who need it.\n Scheduling workshops, organizing SME's, writing Medium articles, and facilitating Wednesday\nteam check-ins.\n Mentoring teams, conducting code and PR reviews, screening and interviewing applicants to the\nDALI Lab.\n Revamped the DALI developer application to feature several interactive challenges to better\nguage applicants' skills.\nShow 2 more roles\n",
@@ -2735,7 +2971,8 @@
         "duration": "1 yr 6 mos",
         "title": "CORE Leadership Team",
         "dates": "May 2018 – Present",
-        "location": "Hanover, NH"
+        "location": "Hanover, NH",
+        "job_id": 1
       },
       {
         "extra": "Software Engineer Intern\n Prototyped a new feature for the watchOS mail app.\n Designed and engineered a new UI and worked with daemon background processes involved in\nwatch-to-phone communication.\n Explored algorithmic and machine learning approaches to a problem and used machin\n",
@@ -2743,7 +2980,8 @@
         "dates": "Jun 2019 – Aug 2019",
         "duration": "3 mos",
         "location": "Cupertino, CA",
-        "title": "Software Engineer Intern"
+        "title": "Software Engineer Intern",
+        "job_id": 2
       },
       {
         "extra": "Teaching Assistant\n COSC52: Full-Stack Web Development (Prof. Tim Tregubov).\n Graded short assignments, quizzes, and labs; held office hours.\n",
@@ -2751,7 +2989,8 @@
         "dates": "Mar 2019 – Jun 2019",
         "duration": "4 mos",
         "location": "Hanover, NH",
-        "title": "Teaching Assistant"
+        "title": "Teaching Assistant",
+        "job_id": 3
       },
       {
         "extra": "Product Manager Intern\n Worked on the QuickBooks France team.\n Piloted an expense management beta test for French small and midsize businesses.\n Used rapid-testing, user research, and customer follow-me homes to design an onboarding\nprocess with a 50% higher response rate.\nTout savoir sur \"Dépenses Express\"\nTout savoir sur \"Dépenses Express\"\nVolunteer Experience\n",
@@ -2759,7 +2998,8 @@
         "dates": "Nov 2017 – Dec 2017",
         "duration": "2 mos",
         "location": "Paris, France",
-        "title": "Product Manager Intern"
+        "title": "Product Manager Intern",
+        "job_id": 4
       }
     ]
   },
@@ -2787,6 +3027,7 @@
     "favoriteArtist": "Max Schneider, Sara Bareilles",
     "favoriteColor": "Blue, Green, Teal",
     "phoneType": "iOS",
+    "id": 47,
     "jobs": [
       {
         "extra": "Software Engineer Intern\n",
@@ -2794,7 +3035,8 @@
         "dates": "Jun 2019 – Present",
         "duration": "5 mos",
         "location": "Mountain View, California",
-        "title": "Software Engineer Intern"
+        "title": "Software Engineer Intern",
+        "job_id": 0
       },
       {
         "extra": "Product Designer\n Pitchback: Redesigned Pitchback’s web application by introducing colorful and sleek UI, a\nsimplified layout for improved UX, and a mode toggling feature.\n Octopus Research: Streamlined user interaction with research software utilized by lab members to\nrun cognitive tests on octopuses.\n",
@@ -2802,7 +3044,8 @@
         "dates": "Jan 2018 – Present",
         "duration": "1 yr 10 mos",
         "location": "Hanover, NH",
-        "title": "Product Designer"
+        "title": "Product Designer",
+        "job_id": 1
       },
       {
         "extra": "Investment Banking Analyst Intern\n",
@@ -2810,7 +3053,8 @@
         "dates": "Jan 2019 – Mar 2019",
         "duration": "3 mos",
         "location": "Greater New York City Area",
-        "title": "Investment Banking Analyst Intern"
+        "title": "Investment Banking Analyst Intern",
+        "job_id": 2
       },
       {
         "extra": "Computer Science Teaching Assistant\n Selected by professor as one of 23 to become a teaching assistant for the Introduction to\nProgramming & Computation (COSC 1) class in Python at Dartmouth.\n Held multiple office hours every week to provide additional help to students who were working\non projects.\n",
@@ -2818,21 +3062,24 @@
         "dates": "Sep 2017 – Nov 2017",
         "duration": "3 mos",
         "location": "Hanover, NH",
-        "title": "Computer Science Teaching Assistant"
+        "title": "Computer Science Teaching Assistant",
+        "job_id": 3
       },
       {
         "extra": "Summer Fellow\n Increased social media presence to over 100 likes per post on Instagram through launching\nmarketing campaign, Humans of LocalAventura, for the startup travel company based in Latin\nAmerica.\n Managed customer relations through working closely with the co-founder and strengt\nShow 4 more experiences\nVolunteer Experience\n",
         "company_name": "LocalAventura",
         "dates": "Jun 2017 – Aug 2017",
         "duration": "3 mos",
-        "title": "Summer Fellow"
+        "title": "Summer Fellow",
+        "job_id": 4
       },
       {
         "extra": "Operations Coordinator\nCause\nChildren\nDeveloped summer camp for kids whose parents have had cancer by managing the logistics of transportation and location, organizing donations, and designing a fulfilling camp schedule for the groundbreaking first year.\n",
         "company_name": "Camp Kesem at Dartmouth",
         "dates": "Nov 2016 – Aug 2017",
         "duration": "10 mos",
-        "title": "Operations Coordinator"
+        "title": "Operations Coordinator",
+        "job_id": 5
       }
     ]
   },
@@ -2860,6 +3107,7 @@
     "favoriteArtist": "Frank Ocean",
     "favoriteColor": "Red",
     "phoneType": "iOS",
+    "id": 48,
     "jobs": [
       {
         "extra": "Designer\n",
@@ -2867,7 +3115,8 @@
         "dates": "Jan 2016 – Nov 2017",
         "duration": "1 yr 11 mos",
         "title": "Data Entry Clerk",
-        "location": "Hanover, NH"
+        "location": "Hanover, NH",
+        "job_id": 0
       },
       {
         "extra": "Lead Designer (Snapchat Stories)\n",
@@ -2875,7 +3124,8 @@
         "dates": "May 2017 – Jun 2018",
         "duration": "1 yr 2 mos",
         "location": "Hanover, NH",
-        "title": "Lead Designer (Snapchat Stories)"
+        "title": "Lead Designer (Snapchat Stories)",
+        "job_id": 1
       },
       {
         "extra": "Digital Content Intern\n",
@@ -2883,7 +3133,8 @@
         "dates": "Jan 2017 – Mar 2018",
         "duration": "1 yr 3 mos",
         "location": "Los Angeles, CA",
-        "title": "Digital Content Intern"
+        "title": "Digital Content Intern",
+        "job_id": 2
       }
     ]
   },
@@ -2911,6 +3162,7 @@
     "favoriteArtist": "Tyler the Creator",
     "favoriteColor": "Light Green",
     "phoneType": "Android",
+    "id": 49,
     "jobs": [
       {
         "extra": "Software Engineer\nCrypto assets and verbs\n",
@@ -2918,7 +3170,8 @@
         "dates": "Aug 2019 – Present",
         "duration": "3 mos",
         "location": "San Francisco Bay Area",
-        "title": "Software Engineer"
+        "title": "Software Engineer",
+        "job_id": 0
       },
       {
         "extra": "Summer Venture Investment Analyst\nAI and enterprise software\n",
@@ -2926,7 +3179,8 @@
         "dates": "Jul 2019 – Aug 2019",
         "duration": "2 mos",
         "location": "Beijing City, China",
-        "title": "Summer Venture Investment Analyst"
+        "title": "Summer Venture Investment Analyst",
+        "job_id": 1
       },
       {
         "extra": "Software Developer\n",
@@ -2934,7 +3188,8 @@
         "dates": "Sep 2016 – Jun 2019",
         "duration": "2 yrs 10 mos",
         "location": "Hanover, New Hampshire",
-        "title": "Software Developer"
+        "title": "Software Developer",
+        "job_id": 2
       },
       {
         "extra": "Software Engineering Intern\nHomes Platform: Anti-Discrimination  & In-Home Accessibility\n",
@@ -2942,7 +3197,8 @@
         "dates": "Jun 2018 – Aug 2018",
         "duration": "3 mos",
         "location": "San Francisco Bay Area",
-        "title": "Software Engineering Intern"
+        "title": "Software Engineering Intern",
+        "job_id": 3
       }
     ]
   },
@@ -2970,6 +3226,7 @@
     "favoriteArtist": "Isaiah Rashad",
     "favoriteColor": "Mustard Yellow",
     "phoneType": "iOS",
+    "id": 50,
     "jobs": [
       {
         "extra": "Founder\nOur mission is to unlock the creative potential of the Dartmouth community through hands-on\ncollaboration, skill-sharing, and mentorship.\n",
@@ -2977,7 +3234,8 @@
         "dates": "Apr 2019 – Present",
         "duration": "7 mos",
         "location": "Hanover, New Hampshire",
-        "title": "Founder"
+        "title": "Founder",
+        "job_id": 0
       },
       {
         "extra": "∙ Manage learning and mentoring initiatives for 25 designers across 12 projects\n∙ Create initiatives to support the design workflow in the lab, monitor the completion of milestones\nand facilitate communication between designers on different teams\n∙ Created digital solutions for 7 client projects over the course of 2 years in close collaboration with\nsoftware engineers\n∙ Collaborated with stakeholders such as Tuck School of Business and the Dartmouth\nEntrepreneurial Network\nShow 2 more roles\n",
@@ -2985,7 +3243,8 @@
         "duration": "2 yrs 10 mos",
         "title": "Designer",
         "dates": "Jan 2017 – Present",
-        "location": "Hanover, New Hampshire"
+        "location": "Hanover, New Hampshire",
+        "job_id": 1
       },
       {
         "extra": "Honors Research Assistant\n∙ Analyzing the way stereotypes are implicitly formed in the brain using fMRI\n∙ Studying human thinking and behavior in social settings with advanced statistical methods and\ncutting-edge brain mapping technology\n",
@@ -2993,7 +3252,8 @@
         "dates": "Mar 2018 – Present",
         "duration": "1 yr 8 mos",
         "location": "Hanover, NH",
-        "title": "Honors Research Assistant"
+        "title": "Honors Research Assistant",
+        "job_id": 2
       },
       {
         "extra": "UI/UX Design Intern\n∙ Independently re-designed the website for the launch of a Spanish school\n∙ Revamped the user experience for navigation and course registration\n∙ Conducted in-depth competitive analysis and user research that led to the successful positioning\nof the online identity of the program\n",
@@ -3001,7 +3261,8 @@
         "dates": "Jul 2019 – Sep 2019",
         "duration": "3 mos",
         "location": "Antioquia Area, Colombia",
-        "title": "UI/UX Design Intern"
+        "title": "UI/UX Design Intern",
+        "job_id": 3
       },
       {
         "extra": "UI/UX Design Course Teaching Assistant\n∙ Collaborated closely with Prof. Lorie Loeb and Design Manager Natalie Svoboda to pilot the first\ntime the class was offered at Dartmouth\n∙ Guided students through the life cycle of digital product design\n∙ Provided individualized support for teams developing digital solutions to problems on\nShow 3 more experiences\nVolunteer Experience\n",
@@ -3009,14 +3270,16 @@
         "dates": "Mar 2019 – Jun 2019",
         "duration": "4 mos",
         "location": "Hanover, New Hampshire",
-        "title": "UI/UX Design Course Teaching Assistant"
+        "title": "UI/UX Design Course Teaching Assistant",
+        "job_id": 4
       },
       {
         "extra": "President LEO Cozia, Romania: Youth Branch of Lions International\nCause\nHuman Rights\nLed a team of 70 high school students in organizing community service events such as fund-raising, awareness campaigns, local sports and arts competitions, science fairs, blood donations, tree plantings, donations and tutoring for the local orphanages.\nRaised approx. 1500$ at the annual charitable Christmas concert. We helped 25 impoverished families with food and warm clothes in a village near our town.\n",
         "company_name": "Lions Clubs International",
         "dates": "Aug 2012 – Jun 2016",
         "duration": "3 yrs 11 mos",
-        "title": "President LEO Cozia, Romania: Youth Branch of Lions International"
+        "title": "President LEO Cozia, Romania: Youth Branch of Lions International",
+        "job_id": 5
       }
     ]
   },
@@ -3044,6 +3307,7 @@
     "favoriteArtist": "Khalid",
     "favoriteColor": "Black",
     "phoneType": "iOS",
+    "id": 51,
     "jobs": [
       {
         "extra": "Project Manager/ Designer\n",
@@ -3051,7 +3315,8 @@
         "dates": "Dec 2017 – Present",
         "duration": "1 yr 11 mos",
         "location": "Dartmouth College",
-        "title": "Project Manager/ Designer"
+        "title": "Project Manager/ Designer",
+        "job_id": 0
       },
       {
         "extra": "Design Internship\n",
@@ -3059,7 +3324,8 @@
         "dates": "Jun 2018 – Aug 2018",
         "duration": "3 mos",
         "location": "Greater Boston Area",
-        "title": "Design Internship"
+        "title": "Design Internship",
+        "job_id": 1
       },
       {
         "extra": "Tutor\nI tutored Java and Python to students in my school.\nVolunteer Experience\n",
@@ -3067,21 +3333,24 @@
         "dates": "2015 – 2017",
         "duration": "2 yrs",
         "location": "Wellesley, MA",
-        "title": "Tutor"
+        "title": "Tutor",
+        "job_id": 2
       },
       {
         "extra": "Volunteer\nCause\nChildren\nShelved books and read to little kids.\n",
         "company_name": "Wellesley Public Library",
         "dates": "2015 – 2017",
         "duration": "2 yrs",
-        "title": "Volunteer"
+        "title": "Volunteer",
+        "job_id": 3
       },
       {
         "extra": "Mentor\nCause\nChildren\nGirls Who Code was founded with a single mission: to close the gender gap in technology. Girls who code teaches elementary school girls how to create a basic website. The organization helps foster interest in Computer Science.\n",
         "company_name": "Girls Who Code",
         "dates": "2016 – 2017",
         "duration": "1 yr",
-        "title": "Mentor"
+        "title": "Mentor",
+        "job_id": 4
       }
     ]
   },
@@ -3109,6 +3378,7 @@
     "favoriteArtist": "Cage The Elephant",
     "favoriteColor": "Blue",
     "phoneType": "iOS",
+    "id": 52,
     "jobs": [
       {
         "extra": "I helped build a mobile app that tests users’ memory after exercise in order to\nassist a Dartmouth psychology study in exploring the positive correlations between\nexercise and cognitive ability.\nI was awarded a Neukom Scholarship grant from Dartmouth to design a web tool helping\nfarmers understand the subsurface soil conditions of their land for the research startup\nSubsurface Insights.\nI developed a website on the Dartmouth Public Policy departmental page exhibiting all alumni who\nhave served public office in honor of Dartmouth’s 250th anniversary. I used React to create\ninteractive data visualizations that that describe how Dartmouth public office involvement has\nevolved over the past 250 years.\n",
@@ -3116,7 +3386,8 @@
         "duration": "3 mos",
         "title": "Full Stack Web Developer",
         "dates": "Jan 2019 – Mar 2019",
-        "location": "Hanover, New Hampshire"
+        "location": "Hanover, New Hampshire",
+        "job_id": 0
       },
       {
         "extra": "Product Engineering Intern\nI was offered a winter internship at Recruitics to implement a CI/CD pipeline that automatically tests\nthe integrity of Recruitics' backend attribution and aggregation processes for analyzing online job\nads.\n",
@@ -3124,7 +3395,8 @@
         "dates": "Nov 2018 – Dec 2018",
         "duration": "2 mos",
         "location": "New York, New York",
-        "title": "Product Engineering Intern"
+        "title": "Product Engineering Intern",
+        "job_id": 1
       },
       {
         "extra": "Computer Science Tutor\n",
@@ -3132,7 +3404,8 @@
         "dates": "Mar 2018 – Nov 2018",
         "duration": "9 mos",
         "location": "Hanover, New Hampshire",
-        "title": "Computer Science Tutor"
+        "title": "Computer Science Tutor",
+        "job_id": 2
       },
       {
         "extra": "Machine Learning Intern\nRecruitics is a data analytics startup in the online job ad space. They assist large companies such as\nUber and CVS in developing strategies to maximize the effectiveness of their online job ad spend.\nOver the summer, I developed a prototype machine learning model that used online job ad data\npreviously analyzed by Recruitics to predict how many applications future job ads will re\n",
@@ -3140,7 +3413,8 @@
         "dates": "Jul 2018 – Aug 2018",
         "duration": "2 mos",
         "location": "New York, New York",
-        "title": "Machine Learning Intern"
+        "title": "Machine Learning Intern",
+        "job_id": 3
       },
       {
         "extra": "Business Development\nCollege Pulse is a Dartmouth-based Y-Combinator startup that rewards college students for\nanswering important questions about their community. I collaborated with local and national\ncompanies, such as Sennheiser and GameFly, to create rewards for College Pulse users in exchange\nfor advertising their brand.\nShow 3 more experiences\nVolunteer Experience\n",
@@ -3148,7 +3422,8 @@
         "dates": "Nov 2017 – May 2018",
         "duration": "7 mos",
         "location": "Hanover, NH",
-        "title": "Business Development"
+        "title": "Business Development",
+        "job_id": 4
       }
     ]
   },
@@ -3176,6 +3451,7 @@
     "favoriteArtist": "Imagine Dragons",
     "favoriteColor": "Blue",
     "phoneType": "iOS",
+    "id": 53,
     "jobs": [
       {
         "extra": "Software Engineering Intern\nInterning on the Native Client Platform – Connected Devices team. Building developer tools with C#\nand the .NET Core Framework that allow users to create and manage new NCP projects from the\ncommand line. Supporting the Connected Devices team in launching Disney+. Working in a\nfast-paced, agile environment with daily stand-ups, and monitored process flow.\n",
@@ -3183,7 +3459,8 @@
         "dates": "Sep 2019 – Present",
         "duration": "2 mos",
         "location": "San Francisco Bay Area",
-        "title": "Software Engineering Intern"
+        "title": "Software Engineering Intern",
+        "job_id": 0
       },
       {
         "extra": "Software Developer\nDevelop full stack websites and apps for start-ups and researchers in this experiential learning lab\nat Dartmouth. Have experience building flexible, large-scale frontends with modern frameworks\nsuch as React, and experience building scalable backends with Node/Express servers and NoSQL\n(mongoDB) databases. Have experience building RESTful APIs and integrating full stack\n",
@@ -3191,7 +3468,8 @@
         "dates": "Sep 2018 – Present",
         "duration": "1 yr 2 mos",
         "location": "Hanover, NH",
-        "title": "Software Developer"
+        "title": "Software Developer",
+        "job_id": 1
       },
       {
         "extra": "Finance Innovation Intern\nStreamlined business workflows and reporting processes for the Finance department of this\n3,500-employee company. Improved data integration using Python, Power Query, and Power BI for\nvisualization and reporting purposes. Developed a task-tracking system to improve monthly closing\nprocesses. Visualized real-time data on task progress and analyzed bottlenecks/depend\n",
@@ -3199,7 +3477,8 @@
         "dates": "Jun 2018 – Sep 2018",
         "duration": "4 mos",
         "location": "Madison, Wisconsin",
-        "title": "Finance Innovation Intern"
+        "title": "Finance Innovation Intern",
+        "job_id": 2
       }
     ]
   },
@@ -3227,6 +3506,7 @@
     "favoriteArtist": "Alabama Shakes",
     "favoriteColor": "Lime Green",
     "phoneType": "iOS",
+    "id": 54,
     "jobs": [
       {
         "extra": "Developer\n Collaborated with entrepreneurs to build products and demos over a fast-paced, 10-week period\n Worked with a team of 3-5 to build and deploy Project Pine Beetle, a web platform and database\nfor users from any background (kindergarten through academia) to visualize data on pine beetle\ninfestations as climate change causes them to spread\n Worked with a team of 6 to develop DPlanner, a web application created by students as solution\nto poorly organized and inefficient course planning tools at Dartmouth College. Built error handling\n(using React, Redux, Node, Express and MongoDB) and beautified styling and user interface (using\nSASS).\nDPlanner\nDPlanner\nProject Pine Beetle\nProject Pine Beetle\n",
@@ -3234,7 +3514,8 @@
         "dates": "Mar 2018 – Jun 2019",
         "duration": "1 yr 4 mos",
         "location": "Hanover, New Hampshire",
-        "title": "Developer"
+        "title": "Developer",
+        "job_id": 0
       },
       {
         "extra": "President\n Led a team of 8 in planning and executing recruitment for over 1,250 current and potential\nmembers\n Worked to solve challenges like negative product and brand sentiment and spread of\nmisinformation\n",
@@ -3242,7 +3523,8 @@
         "dates": "Mar 2018 – Feb 2019",
         "duration": "1 yr",
         "location": "Hanover, New Hampshire",
-        "title": "President"
+        "title": "President",
+        "job_id": 1
       },
       {
         "extra": "Intern, Global Security\n Designed dashboards and data visualization tools to provide real-time information regarding\nriders and driver behavior in disasters, and used findings to propose actions for Uber to assist\ncivilians during emergencies\n Constructed a tracking platform to ensure compliance and preparedness during JUMP\n",
@@ -3250,7 +3532,8 @@
         "dates": "Jun 2018 – Sep 2018",
         "duration": "4 mos",
         "location": "San Francisco Bay Area",
-        "title": "Intern, Global Security"
+        "title": "Intern, Global Security",
+        "job_id": 2
       },
       {
         "extra": "Intern, Physical Security\n Developed a web portal to visualize security data using Mapbox-GL.js, a geospatial mapping\nlibrary, in order to communicate data-driven insight to security team leaders\n Analyzed causes for underreporting in sentiment analysis software and implemented\nimprovement solutions\n",
@@ -3258,7 +3541,8 @@
         "dates": "Jan 2018 – Mar 2018",
         "duration": "3 mos",
         "location": "San Francisco Bay Area",
-        "title": "Intern, Physical Security"
+        "title": "Intern, Physical Security",
+        "job_id": 3
       }
     ]
   },
@@ -3286,6 +3570,7 @@
     "favoriteArtist": "Glass Animals",
     "favoriteColor": "Blue",
     "phoneType": "iOS",
+    "id": 55,
     "jobs": [
       {
         "extra": "Associate Consultant\n",
@@ -3293,7 +3578,8 @@
         "dates": "Aug 2019 – Present",
         "duration": "3 mos",
         "location": "Washington D.C. Metro Area",
-        "title": "Associate Consultant"
+        "title": "Associate Consultant",
+        "job_id": 0
       },
       {
         "extra": "Project Manager\n",
@@ -3301,7 +3587,8 @@
         "dates": "May 2018 – Present",
         "duration": "1 yr 6 mos",
         "location": "Hanover, New Hampshire",
-        "title": "Project Manager"
+        "title": "Project Manager",
+        "job_id": 1
       },
       {
         "extra": "Investment Banking Summer Analyst\nHealthcare Group\n",
@@ -3309,14 +3596,16 @@
         "dates": "Jun 2018 – Aug 2018",
         "duration": "3 mos",
         "location": "New York, New York",
-        "title": "Investment Banking Summer Analyst"
+        "title": "Investment Banking Summer Analyst",
+        "job_id": 2
       },
       {
         "extra": "Tutor\nTutor for mathematics and economics classes\n",
         "company_name": "Dartmouth College",
         "dates": "Jan 2016 – Mar 2018",
         "duration": "2 yrs 3 mos",
-        "title": "Tutor"
+        "title": "Tutor",
+        "job_id": 3
       },
       {
         "extra": "Investment Banking Summer Analyst\nIndustrials Group\nShow 3 more experiences\nVolunteer Experience\n",
@@ -3324,14 +3613,16 @@
         "dates": "Jun 2017 – Aug 2017",
         "duration": "3 mos",
         "location": "New York, New York",
-        "title": "Investment Banking Summer Analyst"
+        "title": "Investment Banking Summer Analyst",
+        "job_id": 4
       },
       {
         "extra": "Volunteer\nCause\nHealth\n",
         "company_name": "Charles B. Wang Community Health Center",
         "dates": "2012 – 2015",
         "duration": "3 yrs",
-        "title": "Volunteer"
+        "title": "Volunteer",
+        "job_id": 5
       }
     ]
   },
@@ -3359,6 +3650,7 @@
     "favoriteArtist": "Chance the Rapper",
     "favoriteColor": "Blue",
     "phoneType": "iOS",
+    "id": 56,
     "jobs": [
       {
         "extra": "Equity Research Intern\n",
@@ -3366,7 +3658,8 @@
         "dates": "Sep 2019 – Present",
         "duration": "2 mos",
         "location": "New York, New York",
-        "title": "Equity Research Intern"
+        "title": "Equity Research Intern",
+        "job_id": 0
       },
       {
         "extra": "Software Developer, Project Manager\n",
@@ -3374,7 +3667,8 @@
         "dates": "Sep 2018 – Present",
         "duration": "1 yr 2 mos",
         "location": "Hanover, New Hampshire",
-        "title": "Software Developer, Project Manager"
+        "title": "Software Developer, Project Manager",
+        "job_id": 1
       }
     ]
   },
@@ -3402,6 +3696,7 @@
     "favoriteArtist": "Khalid",
     "favoriteColor": "Silver",
     "phoneType": "iOS",
+    "id": 57,
     "jobs": [
       {
         "extra": "Technical Program Manager, Engineering\nWorking as a TPM on Instagram Core Infra\n* Demand Management\n* Efficiency and Capacity\n* Scaling Infrastructure\n",
@@ -3409,14 +3704,16 @@
         "dates": "Sep 2019 – Present",
         "duration": "2 mos",
         "location": "San Francisco Bay Area",
-        "title": "Technical Program Manager, Engineering"
+        "title": "Technical Program Manager, Engineering",
+        "job_id": 0
       },
       {
         "extra": "DALI Lab at Dartmouth College is an innovative startup like experiential learning program where\nstudents work in teams of designers and developers to build technology tools to help our partners\nchange behavior, enhance understanding, and even create delight.  We take on projects with real\nimpact and collaborate in teams to create solutions with design, software and hardware\nWelcome\nWelcome\n",
         "company_name": "DALI Lab",
         "duration": "2 yrs 7 mos",
         "title": "Core Leadership Team",
-        "dates": "Apr 2017 – Present"
+        "dates": "Apr 2017 – Present",
+        "job_id": 1
       },
       {
         "extra": "Co-Founder and Software Developer\nLine@KAF is a tech startup that provides businesses and its customers two-way consumer behavior\ndata transparency.\nWe allow real-time data visualization of the current wait in a busy queue of people using AI,\ncomputer vision, and data analytics.\n",
@@ -3424,7 +3721,8 @@
         "dates": "Mar 2017 – Present",
         "duration": "2 yrs 8 mos",
         "location": "Hanover, NH",
-        "title": "Co-Founder and Software Developer"
+        "title": "Co-Founder and Software Developer",
+        "job_id": 2
       },
       {
         "extra": "CS52 (Full-Stack Web Development) TA\nCS52 is a Full-Stack Web Development course that teaches students \"fundamental concepts and\nbest practices of web application development to design web systems from the ground up\" in both\nweb and mobile.  Students learn how to use use frameworks, libraries, APIs to build these\napplications.\nDartmouth CS52 — 19S\nDartmouth CS52 — 19S\n",
@@ -3432,7 +3730,8 @@
         "dates": "Mar 2019 – Present",
         "duration": "8 mos",
         "location": "Hanover, NH",
-        "title": "CS52 (Full-Stack Web Development) TA"
+        "title": "CS52 (Full-Stack Web Development) TA",
+        "job_id": 3
       }
     ]
   },
@@ -3460,6 +3759,7 @@
     "favoriteArtist": "Daft Punk",
     "favoriteColor": "Blue-Green",
     "phoneType": "Android",
+    "id": 58,
     "jobs": [
       {
         "extra": "Software Development Engineer\n",
@@ -3467,7 +3767,8 @@
         "dates": "Jul 2019 – Present",
         "duration": "4 mos",
         "location": "Palo Alto, California",
-        "title": "Software Development Engineer"
+        "title": "Software Development Engineer",
+        "job_id": 0
       },
       {
         "extra": "Developer 1\nDelivered software projects for external customers as part of a student team of developers and\ndesigners\n",
@@ -3475,7 +3776,8 @@
         "dates": "Sep 2018 – Jun 2019",
         "duration": "10 mos",
         "location": "Hanover, New Hampshire",
-        "title": "Developer 1"
+        "title": "Developer 1",
+        "job_id": 1
       },
       {
         "extra": "Taught an Italian grammar class 4 days a week using the Rassias Method\nLed entrepreneurship educational programming for a 45-person residential community at\nDartmouth\n",
@@ -3483,7 +3785,8 @@
         "duration": "9 mos",
         "title": "Student Lead, DEN in Residence Program",
         "dates": "Mar 2017 – Nov 2017",
-        "location": "Hanover, New Hampshire"
+        "location": "Hanover, New Hampshire",
+        "job_id": 2
       },
       {
         "extra": "Software Engineering Intern\nShipped a support webpage to display product licensing and configuration information\n",
@@ -3491,7 +3794,8 @@
         "dates": "Jun 2018 – Aug 2018",
         "duration": "3 mos",
         "location": "Bellevue, Washington",
-        "title": "Software Engineering Intern"
+        "title": "Software Engineering Intern",
+        "job_id": 3
       }
     ]
   },
@@ -3519,6 +3823,7 @@
     "favoriteArtist": "Miniature Tigers",
     "favoriteColor": "Light Sea Green",
     "phoneType": "iOS",
+    "id": 59,
     "jobs": [
       {
         "extra": "Software Engineer\n",
@@ -3526,7 +3831,8 @@
         "dates": "Jun 2019 – Present",
         "duration": "5 mos",
         "location": "San Francisco Bay Area",
-        "title": "Software Engineer"
+        "title": "Software Engineer",
+        "job_id": 0
       },
       {
         "extra": "Software Developer\nCollaborated with a team of designers and other developers to build a small video game from\nscratch for a private client. Learned Unity and C# with no prior knowledge alongside the rest of the\nteam.\n",
@@ -3534,7 +3840,8 @@
         "dates": "Sep 2016 – Present",
         "duration": "3 yrs 2 mos",
         "location": "Hanover, New Hampshire",
-        "title": "Software Developer"
+        "title": "Software Developer",
+        "job_id": 1
       },
       {
         "extra": "Software Engineering Intern\n",
@@ -3542,7 +3849,8 @@
         "dates": "Jun 2018 – Sep 2018",
         "duration": "4 mos",
         "location": "Redmond, Washington",
-        "title": "Software Engineering Intern"
+        "title": "Software Engineering Intern",
+        "job_id": 2
       },
       {
         "extra": "Software Engineering Intern\n",
@@ -3550,7 +3858,8 @@
         "dates": "Dec 2017 – Mar 2018",
         "duration": "4 mos",
         "location": "Boston, MA",
-        "title": "Software Engineering Intern"
+        "title": "Software Engineering Intern",
+        "job_id": 3
       },
       {
         "extra": "Teaching Assistant\nIn my junior winter, I was a teacher's assistant for Music 1, \"Beginning Music Theory.\" While\nDartmouth TAs are usually just graders, I was given the opportunity to instruct one class period a\nweek, and devise a curriculum at my own intended pace for it. In that class, I taught basic aural skills\n(pitch sense, chord mode, melodic dictation, etc) to students with no prior experience in\nShow 1 more experience\nVolunteer Experience\n",
@@ -3558,7 +3867,8 @@
         "dates": "Jan 2017 – Mar 2017",
         "duration": "3 mos",
         "location": "Hanover, NH",
-        "title": "Teaching Assistant"
+        "title": "Teaching Assistant",
+        "job_id": 4
       }
     ]
   },
@@ -3586,6 +3896,7 @@
     "favoriteArtist": "Hozier",
     "favoriteColor": "Blue",
     "phoneType": "iOS",
+    "id": 60,
     "jobs": [
       {
         "extra": "UI/UX Designer\nCollaborating with computer programmers to create products for clients (e.g.: website\ndevelopment, infographic design, mobile app redesign).\n",
@@ -3593,7 +3904,8 @@
         "dates": "Jan 2017 – Present",
         "duration": "2 yrs 10 mos",
         "location": "Dartmouth College",
-        "title": "UI/UX Designer"
+        "title": "UI/UX Designer",
+        "job_id": 0
       },
       {
         "extra": "Development Intern\nInterning for Pedago’s content development team.\n",
@@ -3601,7 +3913,8 @@
         "dates": "Jun 2019 – Aug 2019",
         "duration": "3 mos",
         "location": "Washington D.C. Metro Area",
-        "title": "Development Intern"
+        "title": "Development Intern",
+        "job_id": 1
       },
       {
         "extra": "UI/UX Design Intern\nInterning for QL Product Engineering team.\n",
@@ -3609,7 +3922,8 @@
         "dates": "Jan 2019 – Mar 2019",
         "duration": "3 mos",
         "location": "Detroit, Michigan",
-        "title": "UI/UX Design Intern"
+        "title": "UI/UX Design Intern",
+        "job_id": 2
       },
       {
         "extra": "Research Assistant\nIn conjunction with University of Oregon and Stanford University: creating a online geo-database of\nAncient Rome.\nWeb design (CSS/HTML) for the Virtual Basilica, researching and updating metadata for\nMapping Rome\nMapping Rome\nSt. Paul’s Outside the Walls: A Virtual Basilica\nSt. Paul’s Outside the Walls: A Virtual Basilica\n",
@@ -3617,7 +3931,8 @@
         "dates": "Mar 2018 – Dec 2018",
         "duration": "10 mos",
         "location": "Dartmouth College",
-        "title": "Research Assistant"
+        "title": "Research Assistant",
+        "job_id": 3
       },
       {
         "extra": "Marketing Director\nHer Campus Dartmouth\nHer Campus Dartmouth\nShow 2 more experiences\nVolunteer Experience\n",
@@ -3625,7 +3940,8 @@
         "dates": "Jun 2018 – Nov 2018",
         "duration": "6 mos",
         "location": "Hanover, NH",
-        "title": "Marketing Director"
+        "title": "Marketing Director",
+        "job_id": 4
       }
     ]
   },
@@ -3653,6 +3969,7 @@
     "favoriteArtist": "Hozier",
     "favoriteColor": "Orange",
     "phoneType": "iOS",
+    "id": 61,
     "jobs": [
       {
         "extra": "Software Engineer Intern\nWorked in an agile context on the Named Integrations team. Key projects included:\n- Developed core functionality, error handling and unit testing for pipeline that allows Appian users\nto upload a document to Google Cloud Storage, use optical character recognition to strip out its\ntext, and then retrieve the result. (Java, Groovy, Spock, Gradle)\n- Reconfigured the test site deployment process to simultaneously deploy multiple sites backed by\ndifferent databases.  Reduced process runtime by up to 75%. (Appian Product, SAIL)\n- 1 of 6 interns to present about the intern experience to entire engineering department\n",
@@ -3660,7 +3977,8 @@
         "dates": "Jun 2019 – Aug 2019",
         "duration": "3 mos",
         "location": "Reston, Virginia",
-        "title": "Software Engineer Intern"
+        "title": "Software Engineer Intern",
+        "job_id": 0
       },
       {
         "extra": "Developer\nKey Projects:\n- Developed front-end for all core features (posting, commenting, liking, messaging) of\nsocial-media platform for government accountability in the Democratic Republic of the Congo\n(Kotlin, Apollo-Client-Android, GraphQL, MongoDB)\n",
@@ -3668,7 +3986,8 @@
         "dates": "Apr 2018 – Jun 2019",
         "duration": "1 yr 3 mos",
         "location": "Dartmouth College",
-        "title": "Developer"
+        "title": "Developer",
+        "job_id": 1
       },
       {
         "extra": "Undergraduate Researcher\nResearched the use of technology to interactively teach American Sign Language:\n- Developed pipeline to compare Leap Motion hand-data to database and output result to web app\n(Java)\n- Built Microsoft Hololens app to display signs as 3D holograms on which users can over\n",
@@ -3676,7 +3995,8 @@
         "dates": "Jan 2018 – May 2018",
         "duration": "5 mos",
         "location": "Hanover, NH",
-        "title": "Undergraduate Researcher"
+        "title": "Undergraduate Researcher",
+        "job_id": 2
       },
       {
         "extra": "Policy Intern\n- Investigated state solutions for financing school construction and for making college affordable\n- Developed findings reports which I gave directly to the head of policy\nVolunteer Experience\n",
@@ -3684,7 +4004,8 @@
         "dates": "Jun 2017 – Aug 2017",
         "duration": "3 mos",
         "location": "Providence, Rhode Island",
-        "title": "Policy Intern"
+        "title": "Policy Intern",
+        "job_id": 3
       }
     ]
   },
@@ -3712,13 +4033,15 @@
     "favoriteArtist": "Ariana Grande",
     "favoriteColor": "Light Blue",
     "phoneType": "iOS",
+    "id": 62,
     "jobs": [
       {
         "extra": "Project Manager\n* Facilitate lab-partner / client communication, organize sprints, and manage timeline & budget\nCurrent Project: Keepler: \"Date Delightfully.\"\n",
         "company_name": "DALI Lab",
         "dates": "Mar 2019 – Present",
         "duration": "8 mos",
-        "title": "Project Manager"
+        "title": "Project Manager",
+        "job_id": 0
       },
       {
         "extra": "Summer Intern\n* Market research on OTC hearing aids & fall prevention methods\n* Conduct digital healthcare UX interviews on senior citizens\n* Spearhead \"A Day in the Life\" Instagram series featuring interviews of hq office members\n",
@@ -3726,21 +4049,24 @@
         "dates": "Jun 2019 – Aug 2019",
         "duration": "3 mos",
         "location": "Portland, Maine Area",
-        "title": "Summer Intern"
+        "title": "Summer Intern",
+        "job_id": 1
       },
       {
         "extra": "Research Assistant\n* Professor Duchaine's Cognitive Neuroscience / Social Perception Lab\n* Clinical research on Prosopagnosia (neurological condition)\n* Develop tests & manage client interaction\n",
         "company_name": "Dartmouth Psychological & Brain Sciences Lab",
         "dates": "Dec 2018 – May 2019",
         "duration": "6 mos",
-        "title": "Research Assistant"
+        "title": "Research Assistant",
+        "job_id": 2
       },
       {
         "extra": "Marketing Manager\n* YC Startup School & Stanford Cardinal Ventures\n* Manage ad campaigns, Conduct need-finding & consumer research, Construct official website\nNillify\nNillify\nVolunteer Experience\n",
         "company_name": "Orbis & Nillify",
         "dates": "Jun 2018 – Mar 2019",
         "duration": "10 mos",
-        "title": "Marketing Manager"
+        "title": "Marketing Manager",
+        "job_id": 3
       }
     ]
   },
@@ -3768,6 +4094,7 @@
     "favoriteArtist": "Drake",
     "favoriteColor": "Blue",
     "phoneType": "iOS",
+    "id": 63,
     "jobs": [
       {
         "extra": " Implemented a frontend and a backend with one other developer for a mobile application that\nhelps users stay in touch with old contacts using React Native, Node.js, and Microsoft Graph API\n Planned weekly coding milestones using Agile strategies in order for continuous progress,\nallowing for a smooth product testing\n",
@@ -3775,15 +4102,17 @@
         "duration": "1 yr 2 mos",
         "title": "Software Engineer",
         "dates": "Sep 2018 – Present",
-        "location": "Hanover, New Hampshire"
+        "location": "Hanover, New Hampshire",
+        "job_id": 0
       },
-      {
+      { 
         "extra": "Chief Technology Officer\n",
         "company_name": "Unmasked",
         "dates": "Dec 2018 – Present",
         "duration": "11 mos",
         "location": "Hanover, New Hampshire",
-        "title": "Chief Technology Officer"
+        "title": "Chief Technology Officer",
+        "job_id": 1
       },
       {
         "extra": "Cybersecuruty Research Assistant (Software Engineer)\n Researched parser functional libraries as well as protocols in order to create a parser program that\nprevents cyber attacks\n Created a program that checks and authenticates messages between a client and server in python\nthat using guiding definitions\n",
@@ -3791,7 +4120,8 @@
         "dates": "Sep 2018 – Present",
         "duration": "1 yr 2 mos",
         "location": "Hanover, New Hampshire",
-        "title": "Cybersecuruty Research Assistant (Software Engineer)"
+        "title": "Cybersecuruty Research Assistant (Software Engineer)",
+        "job_id": 2
       },
       {
         "extra": "Vice President of Sponsorship\n Complied and tracked telemetry data to measure success from previous Hackathons to be\nincluded in the prospectus and pitch for new sponsors\n Spearheaded efforts to contact over 100 companies, resulting in over 20 thousand dollars of\napproved funding from 5 companies\n",
@@ -3799,7 +4129,8 @@
         "dates": "Sep 2017 – Present",
         "duration": "2 yrs 2 mos",
         "location": "Hanover, New Hampshire",
-        "title": "Vice President of Sponsorship"
+        "title": "Vice President of Sponsorship",
+        "job_id": 3
       },
       {
         "extra": "Software Developer Intern\n Initiated and redesigned old resource guides on Loc.gov for improved site cohesion and\nsensibility using the LibApps CMS, resulting in the publication of over 15 new and improved guides\n Developed a Google chrome extension that allows users to highlight current legislation on any\nnews article and be able to search Congress.gov for a short summary of that legislation\nCongress.gov Browser Extension\nCongress.gov Browser Extension\nShow 2 more experiences\nVolunteer Experience\n",
@@ -3807,21 +4138,24 @@
         "dates": "Jul 2018 – Aug 2018",
         "duration": "2 mos",
         "location": "Washington D.C. Metro Area",
-        "title": "Software Developer Intern"
+        "title": "Software Developer Intern",
+        "job_id": 4
       },
       {
         "extra": "Volunteer\nCause\nChildren\n-Helped rebuild and clean a playground for families that would stay at the Fisher House on Tripler medical center Army base.\n-Assisted in a eagle project to build a sidewalk alongside a guest house for the residents to use.\n",
         "company_name": "Fisher House Foundation",
         "dates": "Jun 2015 – Jun 2016",
         "duration": "1 yr 1 mo",
-        "title": "Volunteer"
+        "title": "Volunteer",
+        "job_id": 5
       },
       {
         "extra": "Tech Assistant\nCause\nScience and Technology\nVolunteer Computer and Network Technician\nRepaired and installed 40 computer systems and local area networks for homeless shelters, charter schools, and churches.\n",
         "company_name": "Hawaiian Hope",
         "dates": "Aug 2015 – Oct 2015",
         "duration": "3 mos",
-        "title": "Tech Assistant"
+        "title": "Tech Assistant",
+        "job_id": 6
       }
     ]
   },
@@ -3849,6 +4183,7 @@
     "favoriteArtist": "Avicii",
     "favoriteColor": "Green",
     "phoneType": "iOS",
+    "id": 64,
     "jobs": [
       {
         "extra": "Software Engineer\n",
@@ -3856,14 +4191,16 @@
         "dates": "Mar 2019 – Present",
         "duration": "8 mos",
         "location": "Hanover, New Hampshire",
-        "title": "Software Engineer"
+        "title": "Software Engineer",
+        "job_id": 0
       },
       {
         "extra": "Tuck-Lab Student\n",
         "company_name": "The Tuck School of Business at Dartmouth",
         "dates": "Mar 2019 – Present",
         "duration": "8 mos",
-        "title": "Tuck-Lab Student"
+        "title": "Tuck-Lab Student",
+        "job_id": 1
       }
     ]
   },
@@ -3891,20 +4228,23 @@
     "favoriteArtist": "Jason Derulo ",
     "favoriteColor": "Purple",
     "phoneType": "iOS",
+    "id": 65,
     "jobs": [
       {
         "extra": "Software Developer\nSpring 2018: Taught myself React Native to create an Android and iPhone app for the Global\nEconomic Market (GEM) class at Tuck Business School to teach the first year students new concepts.\nSpecifically I coded two games, the first a quiz style program and the second a rocket that the user\ncontrols as a metaphor for the economy.\nWinter 2018: Worked on the REX Realestate project. Created an app for our partner REX using Swift\nand Xcode which unlocks a house and leads a house tour to potential home buyers. My role was to\ncreate backend classes and import our data as well as use Cocoa pods to add animated\n",
         "company_name": "DALI Lab",
         "dates": "Jan 2018 – Present",
         "duration": "1 yr 10 mos",
-        "title": "Software Developer"
+        "title": "Software Developer",
+        "job_id": 0
       },
       {
         "extra": "Teachers Assistant for CS10: Object Oriented Programming\nSelected as a Teaching Assistant for Object Oriented Programming under Professor Tim Pierson due\nto my success in the class a year earlier. I hold weekly office hours, teach a weekly section where\nstudents to programming drills, and grade exams, problem sets and short assignments.\n",
         "company_name": "Dartmouth College",
         "dates": "Jan 2018 – Present",
         "duration": "1 yr 10 mos",
-        "title": "Teachers Assistant for CS10: Object Oriented Programming"
+        "title": "Teachers Assistant for CS10: Object Oriented Programming",
+        "job_id": 1
       },
       {
         "extra": "Investment Banking Summer Analyst\n",
@@ -3912,7 +4252,8 @@
         "dates": "May 2019 – Aug 2019",
         "duration": "4 mos",
         "location": "New York, New York",
-        "title": "Investment Banking Summer Analyst"
+        "title": "Investment Banking Summer Analyst",
+        "job_id": 2
       },
       {
         "extra": "Software Engineer Intern\n",
@@ -3920,7 +4261,8 @@
         "dates": "Jan 2019 – Mar 2019",
         "duration": "3 mos",
         "location": "Menlo Park, California",
-        "title": "Software Engineer Intern"
+        "title": "Software Engineer Intern",
+        "job_id": 3
       },
       {
         "extra": "Software Engineer Intern\nCreated two testing tools in Java as well as helped plan and organize Liquidnet's Tech for Girls\nsummer program. The tools that I wrote will both be used for testing new Trading Algorithms. The\nfirst is a program that simulates a client so the developers can see how their algorithm would\nrespond with users. The second tool is used to gather data between costumer defined in\nShow 2 more experiences\nVolunteer Experience\n",
@@ -3928,21 +4270,24 @@
         "dates": "Jun 2017 – Aug 2017",
         "duration": "3 mos",
         "location": "New York City",
-        "title": "Software Engineer Intern"
+        "title": "Software Engineer Intern",
+        "job_id": 4
       },
       {
         "extra": "Sponsorship Volunteer\nCause\nEducation\nVolunteer as a sponsorship organize for HackDartmouth to plan Dartmouth's Hackathon. Involves reaching out to other companies as well as inner Dartmouth organizations to gain support for our Spring 2018 event.\n",
         "company_name": "HackDartmouth",
         "dates": "Sep 2017 – Present",
         "duration": "2 yrs 2 mos",
-        "title": "Sponsorship Volunteer"
+        "title": "Sponsorship Volunteer",
+        "job_id": 5
       },
       {
         "extra": "Dartmouth Outing Club\nCause\nEducation\nSelected to be Safety Lead for one of the six \"Croos\" who run logistics in different locations for Dartmouth's First Year Trips program. As safety lead I was responsible for the well being of each of my croolings as well as all freshmen who came to our Oak Hill location for their pre-orientation trip. I also planned and led activities for the freshmen and worked to create bonds with them so they would feel welcome starting their first year at Dartmouth a few weeks later.\n",
         "company_name": "First Year Trips Volunteer - Oak Hill Crooling",
         "dates": "Aug 2017 – Sep 2017",
         "duration": "2 mos",
-        "title": "Dartmouth Outing Club"
+        "title": "Dartmouth Outing Club",
+        "job_id": 6
       }
     ]
   }
