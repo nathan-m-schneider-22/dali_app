@@ -5,15 +5,14 @@
 22": 7
 19": 24
 
-For essay resubmit
-applications@dali.dartmouth.edu
 
+members/:id , members/all: fields=,,,list of fields to return
 
-EMAIL FOR EXTENSION
+members/match: attr=val,att2=val2, within schema
 
-364 163
+members/:id/jobs/:job_id , members/:id/jobs fields ,,,
 
+Javascript Syntax
 
-TODO:
-CLEAN CODE, walk through logically
-
+DOCUMENTATION PLSPLSPLS
+Showing the prefix tree for CS50
