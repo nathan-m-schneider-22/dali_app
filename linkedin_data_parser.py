@@ -5,6 +5,12 @@ This program parses saved HTML pages for each DALI lab's member's
 linkedin account. It then saves their work experience as a list of 
 dictionaries. This function can be called by other python files,
 or run itself to parse all the members.
+
+The program runs in two cycles.
+First, it converts an HTML document into multiple lists of data 
+entries, separated by company names.
+Second, it converts those lists into dictionaries for the eventual
+writing to a json file to be read by the API. 
 """
 
 
@@ -47,6 +53,7 @@ def get_job_list(member_name):
             parser.feed(s)
 
 
+
     #Implement a list of lists to hold strings
     all_list_jobs = []
     current_list_job = []
@@ -57,21 +64,26 @@ def get_job_list(member_name):
     #Keywords to 
     keywords = ["duration","dates","location"]
 
+    #Pick up the word just before the company name (sometimes a job title)
     current_list_job.append(data_list[index-1])
     while index < len(data_list)-1:
 
+        #If it's a keyword, be sure to add it to this current job list
         if any(k in data_list[index].lower() for k in keywords) and \
             len(data_list[index]) < 20:
             current_list_job.append(data_list[index])
             current_list_job.append(data_list[index+1])
             index +=2
 
+        #If the data say company name, split the stream and form a new job list
         elif data_list[index+1] == "Company Name":
             all_list_jobs.append(current_list_job)
             current_list_job = []
             current_list_job.append(data_list[index])
             current_list_job.append(data_list[index+1])
             index +=2
+        
+        #Add the current word to the list job
         else:
             current_list_job.append(data_list[index])
             index += 1
