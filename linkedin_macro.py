@@ -8,6 +8,7 @@ This program is a workaround to obtaining the linkedIn data
  load time between in order to save the HTML of each LinkedIn page
  to my laptop, where it can be parsed. 
 """
+
 import pyautogui
 import time
 import json
@@ -60,6 +61,8 @@ try:
         time.sleep(.5)
         pyautogui.press('enter')
         time.sleep(SLEEP_TIME)
-
+        #Continue the loop
+    print("FINISHED")
+    
 except KeyboardInterrupt:
-    print('\nDone.')
+    print('\Exited.')
