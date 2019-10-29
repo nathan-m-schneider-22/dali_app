@@ -23,7 +23,7 @@ Show members
      - None: Returns all data for all members  
      
      - `?fields=name,year,phoneType`:
-   Any comma separated list of valid job fields, see [here](./data/data.md) for all valid fields. Will return data for all members, with only the specified fields. 
+   Any comma separated list of valid member fields, see [here](./data/data.md) for all valid fields. Will return data for all members, with only the specified fields. 
 
 
 * **Success Response:**
@@ -82,6 +82,7 @@ Show members
     "Other": "",...`
  
 
+* **Error Response:**
 
   * **Code:** 400 BAD REQUEST <br />
     **Content:** `{ error : "Invalid field: field" }`
@@ -124,7 +125,7 @@ Show members
 
    **Required:**
  
-   `id=member_id` valid member id
+   `:id` valid member id
 *  **Qeury Params**  
      - None: Returns all data for the member  
      
@@ -183,14 +184,17 @@ Show members
     **Content:** `{ error:"Invalid field: field" }`
 
 * **Sample Call:**
-    request: `/members/1?fields=name,favoriteColor`
+
+    request: `/members/1?fields=name,favoriteColor`  
+    response: 
 ```json
 {
   "name": "Jasmine Mai",
   "favoriteColor": "Blue"
 }  
 ```
-request: `/members/1`
+request: `/members/1`  
+response: 
 ```json
 {
   "name": "Jasmine Mai",
@@ -247,7 +251,7 @@ request: `/members/1`
 
    **Required:**
  
-   `id=member_id` valid member id
+   `:id` a valid member id
 *  **Qeury Params**  
      - None: Returns all data all jobs  
      
@@ -320,9 +324,9 @@ request: `/members/1`
 
    **Required:**
  
-   `id=member_id` valid member id
+   `:id` valid member id
 
-   `job_id` valid job id
+   `:job_id` valid job id
 
 *  **Qeury Params**  
      - None: Returns all data for the job  
@@ -435,7 +439,7 @@ request: `/members/1/jobs/1`
 
 * **Sample Call:**
 
-Request: `/members/1`  
+Request: `/members/`  
 Body: 
 
 ```json     
@@ -495,7 +499,7 @@ response:
 
    **Required:**
  
-   `:id=member_id` valid member id
+   `:id` valid member id
 
 * **Data Params**
 
@@ -575,7 +579,7 @@ response:
 
    **Required:**
  
-   `:id=member_id` valid member id
+   `:id` valid member id
 
 
 * **Data Params**
@@ -650,7 +654,7 @@ response:
 
    **Required:**
  
-   `:id=member_id` valid member id   
+   `:id` valid member id   
    `:job_id` valid job id for member
 * **Data Params**
 
@@ -731,7 +735,7 @@ response:
 
    **Required:**
  
-   `id=user_id` a valid user id
+   `id:` a valid user id
 
 * **Success Response:**
 
