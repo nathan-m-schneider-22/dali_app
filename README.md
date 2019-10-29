@@ -7,8 +7,6 @@ This API is a platform for collecting and distributing data about the members of
 
 # Endpoints 
 
-## Basic Data Retrieval 
--------------
 Show members
 ----
   Returns json data about all DALI members
@@ -454,14 +452,15 @@ request: `/members/1/jobs/1`
 
 * **Sample Call:**
 
-    Request: `/members/1`  
-    Body: 
+Request: `/members/1`  
+Body: 
 
-    ```json     
-    {
-	"name" : "Charles Dickens",
-    "year": "65"
-    }
+```json     
+{
+"name" : "Charles Dickens",
+"year": "65"
+}
+```
 response: 
 
 ```json 
@@ -630,4 +629,168 @@ response:
 {
   "message": "Job Deleted",
   "job_id": "1"
-}```
+}
+```
+--------
+**Count Attributes**
+----
+This method takes a specific attribute, and takes a count of each distinct
+value of this attribute. It returns this as a list of objects with two fields,
+the attribute value, and the count of times it appears within the dataset
+* **URL**
+
+  /members/count/:attribute
+
+* **Method:**
+
+  `GET`
+  
+*  **URL Params**
+
+   **Required:**
+ 
+   `attribute=[string]` a valid field for either member or job schemas
+
+
+* **Success Response:**
+
+  * **Code:** 200 <br />
+    **Content:** `[
+  {
+    "phoneType": "iOS",
+    "count": 56
+  },
+  {
+    "phoneType": "Other",
+    "count": 1
+  },
+  {
+    "phoneType": "Android",
+    "count": 9
+  }
+]`
+ 
+* **Error Response:**
+
+  * **Code:** 400 BAD REQUEST <br />
+    **Content:** `{ error : "Invalid field: field" }`
+
+* **Sample Call:**
+request: `members/count/year`  
+response:  
+
+```json
+[
+  {
+    "year": "'20",
+    "count": 23
+  },
+  {
+    "year": "'19",
+    "count": 24
+  },
+  {
+    "year": "'21",
+    "count": 12
+  },
+  {
+    "year": "'22",
+    "count": 7
+  }
+] 
+```
+--------
+**Match Attributes**
+----
+The user will submit in the URL a set of key,value pairs, and will receive a
+list of all DALI members that match all of these key,value conditions
+* **URL**
+
+  /members/match/
+
+* **Method:**
+
+  `GET`
+  
+*  **Query Params**
+
+ 
+   `field=value` any and all valid fields, with any values
+
+
+* **Success Response:**
+
+  * **Code:** 200 <br />
+    **Content:** `[
+  {
+    "name": "Wylie Kasai",
+    "id": 9
+  },
+  {
+    "name": "Sara Falkson",
+    "id": 15
+  },
+  {
+    "name": "Gillian Yue",
+    "id": 23
+  },
+  {
+    "name": "Zirui Hao",
+    "id": 39
+  },
+  {
+    "name": "Donia Tung",
+    "id": 45
+  },
+  {
+    "name": "Sara S. Kim",
+    "id": 62
+  },
+  {
+    "name": "John McCambridge",
+    "id": 64
+  }
+]`
+ 
+* **Error Response:**
+
+  * **Code:** 400 BAD REQUEST <br />
+    **Content:** `{ error : "Invalid field: field" }`
+
+* **Sample Call:**
+request: `members/match?year='22&phoneType=iOS`  
+response:  
+
+```json
+[
+  {
+    "name": "Wylie Kasai",
+    "id": 9
+  },
+  {
+    "name": "Sara Falkson",
+    "id": 15
+  },
+  {
+    "name": "Gillian Yue",
+    "id": 23
+  },
+  {
+    "name": "Zirui Hao",
+    "id": 39
+  },
+  {
+    "name": "Donia Tung",
+    "id": 45
+  },
+  {
+    "name": "Sara S. Kim",
+    "id": 62
+  },
+  {
+    "name": "John McCambridge",
+    "id": 64
+  }
+]
+```
+---------
