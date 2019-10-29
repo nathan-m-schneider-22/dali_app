@@ -304,7 +304,7 @@ request: `/members/1`
 ]
 ```
 ---------
-  **Show Member Specific Job**
+  **Show Specific Member Job**
 ----
   Returns json data about a single member's specific job
 
@@ -386,15 +386,186 @@ request: `/members/1/jobs/1`
   "job_id": 1
 }
 ```
-
 -----------
-**Edit Member**
+**Add Member**
 ----
-  Edit the fields of an existing member
+  Add a new DALI Lab member to the data set
 
 * **URL**
 
   /users/
+
+* **Method:**
+
+  `POST`
+
+*  **URL Params**
+
+
+* **Data Params**
+
+  Data must be in a JSON in the form specified by the Joi Schema used to validate. See [implementation](./implementaion.md) and [data format](./data/data.md) for more. All fields are required for POST
+
+* **Success Response:**
+
+  * **Code:** 200 <br />
+    **Content:** `({message: "DALI member added", id:(new_id)})`
+ 
+* **Error Response:**
+
+     If there are any missing fields, the request will be rejected. If there are any extra fields, these will be rejected. If any fields differ from the [Joi Schema](./schemas.js) the request will be rejected. 
+
+* **Code:** 400 BAD REQUEST <br />
+  **Content:** `    "isJoi": true,
+"name": "ValidationError",
+"details": [
+  {
+    "message": "\"year\" is required",
+    "path": [
+      "year"
+    ],
+    "type": "any.required",
+    "context": {
+      "key": "year",
+      "label": "year"
+    }
+  }
+],
+`
+
+* **Sample Call:**
+
+Request: `/members/1`  
+Body: 
+
+```json     
+ {
+      "name": "Nathan Schneider",
+      "year": "'22",
+			"gender": "Male",
+      "picture": "https://api.typeform.com/responses/files/c5f9719d9453133b1e954af096f540987b955f30ab1e63cfc6005ad8634e5a8f/JOHN.jpg",
+      "American Indian or Alaska Native": "",
+      "Asian": "",
+      "Black or African American": "",
+      "Hispanic or Latino": "",
+      "Middle Eastern": "",
+      "Native Hawaiian or Other Pacific Islander": "",
+      "White": "White",
+      "Other": "",
+      "major": "Computer Science ",
+      "minor": "",
+      "modification": "",
+      "birthday": "12/12/99",
+      "role": "Developer",
+      "home": "Lyons, CO",
+      "quote": "\"Go big then go home.\"",
+      "favoriteShoe": "Sportiva Finales",
+      "favoriteArtist": "Hobo Johnson",
+      "favoriteColor": "Blue",
+      "phoneType": "iOS",
+      "jobs": [
+        
+      ]
+    }
+
+```
+response: 
+
+```json 
+{
+  "message": "DALI member added",
+  "id": 67
+}
+```
+
+-----------
+**Add Job**
+----
+  Add a job to a specific member
+
+* **URL**
+
+  /users/:id/jobs
+
+* **Method:**
+
+  `POST`
+  
+*  **URL Params**
+
+   **Required:**
+ 
+   `:id=member_id` valid member id
+
+* **Data Params**
+
+  Data must be in a JSON in the form specified by the Joi Schema used to validate. See [implementation](./implementaion.md) and [data format](./data/data.md) for more. 
+
+* **Success Response:**
+
+  * **Code:** 200 <br />
+    **Content:** `{message:'Job updated with id', job_id: job_id}`
+ 
+
+* **Error Response:**
+* **Code:** 404 NOT FOUND <br />
+**Content:** `{ error : "User id not found" }`
+
+OR
+
+If there are any fields missing from the request body, they will be rejected and displayed in the error. If there are any extra fields, these will also be rejected. If any fields differ from the [Joi Schema](./schemas.js) the request will be rejected. 
+
+* **Code:** 400 BAD REQUEST <br />
+**Content:** `{
+  "isJoi": true,
+  "name": "ValidationError",
+  "details": [
+    {
+      "message": "\"company_name\" is required",
+      "path": [
+        "company_name"
+      ],
+      "type": "any.required",
+      "context": {
+        "key": "company_name",
+        "label": "company_name"
+      }
+    }
+  ]
+`
+
+* **Sample Call:**
+
+    Request: `/members/1/jobs/1`  
+    Body: 
+```json    
+{
+	
+   "extra": "Project Manager\nEach term I manage a group of students, developers and designers, in making a product for our\npartner, which changes term to term. ",
+    "company_name": "DALI Lab",
+    "dates": "Jan 2019 – Present",
+    "duration": "10 mos",
+    "location": "Hanover, NH",
+    "title": "Project Manager"
+  }
+```
+response: 
+
+```json 
+{
+  "message": "Job added Sucessfully",
+  "job_id": 5
+}
+```
+
+-----------
+**Edit Member**
+----
+  Edit the data of a current member of the DALI Lab
+
+* **URL**
+
+  /users/:id
 
 * **Method:**
 
@@ -404,7 +575,7 @@ request: `/members/1/jobs/1`
 
    **Required:**
  
-   `id=member_id` valid member id
+   `:id=member_id` valid member id
 
 
 * **Data Params**
@@ -421,34 +592,27 @@ request: `/members/1/jobs/1`
   * **Code:** 404 NOT FOUND <br />
     **Content:** `{ error : "User id not found" }`
 
-  OR
-
-     If there are any extra fields, these will be rejected. If any fields differ from the [Joi Schema](./schemas.js) the request will be rejected. 
+  If there are any extra fields, these will be rejected. If any fields differ from the [Joi Schema](./schemas.js) the request will be rejected. 
 
   * **Code:** 400 BAD REQUEST <br />
     **Content:** `  "isJoi": true,
   "name": "ValidationError",
   "details": [
     {
-      "message": "\"no\" is not allowed",
+      "message": "\"extra-field\" is not allowed",
       "path": [
-        "no"
+        "extra-field"
       ],
       "type": "object.allowUnknown",
       "context": {
-        "child": "no",
-        "value": "very bad",
-        "key": "no",
-        "label": "no"
+        "child": "extra-field",
+        "value": "extra-value",
+        "key": "extra-field",
+        "label": "extra-field"
       }
     }
   ],
-  "_object": {
-    "name": "Charles Dickens",
-    "year": "65",
-    "no": "very bad"
-  }
-}`
+`
 
 * **Sample Call:**
 
@@ -457,10 +621,9 @@ Body:
 
 ```json     
 {
-"name" : "Charles Dickens",
-"year": "65"
-}
-```
+	"name" : "Phil Hanlon",
+	"year": "77"
+}```
 response: 
 
 ```json 
@@ -477,13 +640,18 @@ response:
 
 * **URL**
 
-  /users/1/jobs
+  /users/:id/jobs/:job_id
 
 * **Method:**
 
   `PATCH`
   
+*  **URL Params**
 
+   **Required:**
+ 
+   `:id=member_id` valid member id   
+   `:job_id` valid job id for member
 * **Data Params**
 
   Data must be in a JSON in the form specified by the Joi Schema used to validate. See [implementation](./implementaion.md) and [data format](./data/data.md) for more. All fields are required for POST.
