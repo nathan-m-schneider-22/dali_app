@@ -77,6 +77,7 @@ def get_job_list(member_name):
         #A category with descriptors and titles
         job_dict = {}
         job_dict["extra"] = ""
+        job_dict["location"]  = ""
         i = 0 
         #Check the current string for relevancy (comes in multiple orders)
         while i < len(current_list_job):
