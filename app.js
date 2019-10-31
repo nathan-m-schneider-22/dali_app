@@ -2,7 +2,8 @@ const express = require('express')
 const bodyParser = require('body-parser')
 var validate = require('express-validation')
 const app = express()
-const port = process.env.port || 9090
+require("dotenv").config()
+const port = process.env.PORT || 9090
 var Joi = require('joi')
 var data = require('./data/job_data.json') 
 var {member_schema,job_schema,member_attribute_array,job_attribute_array} = require('./schemas.js')
