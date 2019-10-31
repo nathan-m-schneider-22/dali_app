@@ -3,4 +3,4 @@ data/member_jobs
 play
 objtest.js
 
-node_*
+node_*'node_modules' 
