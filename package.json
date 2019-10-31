@@ -1,5 +1,8 @@
 {
   "name": "dali_app",
+  "engines": {
+    "node": "12.13.0"
+  },
   "version": "1.0.0",
   "description": "## Project Goals For this project I'm looking to take the DALI data set, expand on it, and present interesting correlations (however trivial)",
   "main": "index.js",
