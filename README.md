@@ -1,5 +1,6 @@
 # DALI Application, Social Media Backend/API Challenge
 
+LIVE at: [https://dali-app.herokuapp.com](https://dali-app.herokuapp.com)
 
 ## Overview
 This API is a platform for collecting and distributing data about the members of the DALI Lab, as well as member data from LinkedIn. This README will review the including endpoints included in this API. Before continuing, be sure you are aware of the data being used, 
